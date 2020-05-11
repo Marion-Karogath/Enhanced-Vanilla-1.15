@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "enhancedvanilla:blocks/sunflower",
+    "particle": "enhancedvanilla:blocks/sunflower"
+  }
+}

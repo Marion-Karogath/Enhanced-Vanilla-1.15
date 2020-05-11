@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "enhancedvanilla:blocks/spruce_parquet",
+    "top": "enhancedvanilla:blocks/spruce_parquet",
+    "side": "enhancedvanilla:blocks/spruce_parquet"
+  }
+}

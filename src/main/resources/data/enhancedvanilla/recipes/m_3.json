@@ -1,0 +1,23 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "4": {
+      "item": "minecraft:paper"
+    },
+    "5": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "minecraft:name_tag",
+    "count": 1
+  }
+}

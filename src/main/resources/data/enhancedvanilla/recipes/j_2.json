@@ -1,0 +1,33 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:thatch"
+    },
+    "3": {
+      "item": "enhancedvanilla:thatch"
+    },
+    "4": {
+      "item": "enhancedvanilla:thatch"
+    },
+    "6": {
+      "item": "enhancedvanilla:thatch"
+    },
+    "7": {
+      "item": "enhancedvanilla:thatch"
+    },
+    "8": {
+      "item": "enhancedvanilla:thatch"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:thatch_stairs",
+    "count": 4
+  }
+}

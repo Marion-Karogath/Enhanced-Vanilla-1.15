@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.STONE_SLAB#6"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CharredNetherBrickSlab"
+    },
+    "name": "k_1",
+    "namespace": "mod"
+  }
+}

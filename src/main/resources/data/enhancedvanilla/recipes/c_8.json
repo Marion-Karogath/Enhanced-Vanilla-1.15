@@ -1,0 +1,33 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:oak_parquet"
+    },
+    "3": {
+      "item": "enhancedvanilla:oak_parquet"
+    },
+    "4": {
+      "item": "enhancedvanilla:oak_parquet"
+    },
+    "6": {
+      "item": "enhancedvanilla:oak_parquet"
+    },
+    "7": {
+      "item": "enhancedvanilla:oak_parquet"
+    },
+    "8": {
+      "item": "enhancedvanilla:oak_parquet"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:oak_parquet_stairs",
+    "count": 4
+  }
+}

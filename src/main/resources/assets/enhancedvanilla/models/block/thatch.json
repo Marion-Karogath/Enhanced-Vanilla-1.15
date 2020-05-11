@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enhancedvanilla:blocks/thatch",
+    "up": "enhancedvanilla:blocks/thatch",
+    "north": "enhancedvanilla:blocks/thatch",
+    "east": "enhancedvanilla:blocks/thatch",
+    "south": "enhancedvanilla:blocks/thatch",
+    "west": "enhancedvanilla:blocks/thatch",
+    "particle": "enhancedvanilla:blocks/thatch"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OakParquet"
+      },
+      {
+        "value": "CUSTOM:SpruceParquet"
+      },
+      {
+        "value": "CUSTOM:BirchParquet"
+      },
+      {
+        "value": "CUSTOM:JungleParquet"
+      },
+      {
+        "value": "CUSTOM:AcaciaParquet"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquet"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

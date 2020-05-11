@@ -1,0 +1,11 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "ingredient": {
+    "item": "enhancedvanilla:roughredsandstone"
+  },
+  "result": {
+    "item": "minecraft:smooth_red_sandstone"
+  }
+}

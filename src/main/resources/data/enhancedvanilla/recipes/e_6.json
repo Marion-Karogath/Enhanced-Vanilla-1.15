@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:redsandripple"
+    },
+    "1": {
+      "item": "enhancedvanilla:redsandripple"
+    },
+    "2": {
+      "item": "enhancedvanilla:redsandripple"
+    },
+    "3": {
+      "item": "enhancedvanilla:redsandripple"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_sandstone",
+    "count": 1
+  }
+}

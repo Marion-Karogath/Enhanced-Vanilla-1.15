@@ -1,0 +1,9 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
+  },
+  "result": "enhancedvanilla:roughredsandstonestairs"
+}

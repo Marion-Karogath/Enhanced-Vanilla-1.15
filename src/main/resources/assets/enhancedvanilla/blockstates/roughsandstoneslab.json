@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/roughsandstoneslab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/roughsandstoneslab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/roughsandstoneslab_full"
+    }
+  }
+}

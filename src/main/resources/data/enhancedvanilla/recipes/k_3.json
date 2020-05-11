@@ -1,0 +1,11 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "minecraft:nether_brick"
+  },
+  "result": {
+    "item": "enhancedvanilla:charred_nether_brickitem"
+  }
+}

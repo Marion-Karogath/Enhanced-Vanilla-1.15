@@ -1,0 +1,25 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SettWall"
+      },
+      {
+        "value": "CUSTOM:MossySettWall"
+      },
+      {
+        "value": "CUSTOM:MudBrickWall"
+      },
+      {
+        "value": "CUSTOM:CharredNetherBrickWall"
+      }
+    ],
+    "functions": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

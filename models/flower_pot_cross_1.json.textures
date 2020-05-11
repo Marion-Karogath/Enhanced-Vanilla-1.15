@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "flowerpot": "flower_pot",
+        "plant": "orange_amaranth_potted",
+        "dirt": "dirt"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:setts"
+    },
+    "1": {
+      "item": "enhancedvanilla:setts"
+    },
+    "2": {
+      "item": "enhancedvanilla:setts"
+    },
+    "3": {
+      "item": "enhancedvanilla:setts"
+    },
+    "4": {
+      "item": "enhancedvanilla:setts"
+    },
+    "5": {
+      "item": "enhancedvanilla:setts"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:sett_wall",
+    "count": 6
+  }
+}

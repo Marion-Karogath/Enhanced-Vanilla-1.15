@@ -1,0 +1,22 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MudBricks"
+      },
+      {
+        "value": "CUSTOM:CrackedMudBricks"
+      },
+      {
+        "value": "CUSTOM:ChiseledMudBricks"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "mud_bricks",
+    "namespace": "mod"
+  }
+}

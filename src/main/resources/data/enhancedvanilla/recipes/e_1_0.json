@@ -1,0 +1,16 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enhancedvanilla:setts"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "enhancedvanilla:mossy_setts",
+    "count": 1
+  }
+}

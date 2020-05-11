@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "enhancedvanilla:blocks/mud_bricks",
+    "particle": "enhancedvanilla:blocks/mud_bricks"
+  }
+}

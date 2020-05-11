@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "enhancedvanilla:blocks/rough_red_sandstone",
+    "top": "enhancedvanilla:blocks/rough_red_sandstone",
+    "side": "enhancedvanilla:blocks/rough_red_sandstone"
+  }
+}

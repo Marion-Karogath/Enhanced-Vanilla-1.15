@@ -1,0 +1,45 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedSandRipple"
+      },
+      {
+        "value": "CUSTOM:RedSandRipple"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedSandRipple"
+      },
+      {
+        "value": "CUSTOM:RedSandRipple"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.RED_SANDSTONE#0"
+    },
+    "name": "e_6",
+    "namespace": "mod"
+  }
+}

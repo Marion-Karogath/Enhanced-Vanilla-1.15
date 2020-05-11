@@ -1,0 +1,16 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:paeonia"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_dye",
+    "count": 1
+  }
+}

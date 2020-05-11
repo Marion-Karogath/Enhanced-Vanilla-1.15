@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "Blocks.STONEBRICK#0"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:SettWall"
+    },
+    "name": "g_1",
+    "namespace": "mod"
+  }
+}

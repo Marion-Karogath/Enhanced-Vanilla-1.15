@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "1": {
+      "item": "minecraft:acacia_log"
+    },
+    "2": {
+      "item": "minecraft:acacia_log"
+    },
+    "3": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:acacia_tanbark",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "minecraft:red_nether_brick_stairs"
+  },
+  "result": {
+    "item": "enhancedvanilla:charred_nether_brick_stairs"
+  }
+}

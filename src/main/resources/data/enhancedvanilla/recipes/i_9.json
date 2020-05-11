@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:dried_wheat"
+    },
+    "1": {
+      "item": "enhancedvanilla:dried_wheat"
+    },
+    "2": {
+      "item": "enhancedvanilla:dried_wheat"
+    },
+    "3": {
+      "item": "enhancedvanilla:dried_wheat"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:thatch",
+    "count": 4
+  }
+}

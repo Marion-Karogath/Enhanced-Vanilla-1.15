@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:charred_nether_brickitem"
+    },
+    "1": {
+      "item": "enhancedvanilla:charred_nether_brickitem"
+    },
+    "2": {
+      "item": "enhancedvanilla:charred_nether_brickitem"
+    },
+    "3": {
+      "item": "enhancedvanilla:charred_nether_brickitem"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:charred_nether_brick",
+    "count": 1
+  }
+}

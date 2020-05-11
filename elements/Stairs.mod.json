@@ -1,0 +1,52 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RoughSandstoneStairs"
+      },
+      {
+        "value": "CUSTOM:RoughRedSandstoneStairs"
+      },
+      {
+        "value": "CUSTOM:OakParquetStairs"
+      },
+      {
+        "value": "CUSTOM:SpruceParquetStairs"
+      },
+      {
+        "value": "CUSTOM:BirchParquetStairs"
+      },
+      {
+        "value": "CUSTOM:JungleParquetStairs"
+      },
+      {
+        "value": "CUSTOM:AcaciaParquetStairs"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquetStairs"
+      },
+      {
+        "value": "CUSTOM:SettStairs"
+      },
+      {
+        "value": "CUSTOM:MossySettStairs"
+      },
+      {
+        "value": "CUSTOM:MudBrickStairs"
+      },
+      {
+        "value": "CUSTOM:ThatchStairs"
+      },
+      {
+        "value": "CUSTOM:CharredNetherBrickStairs"
+      }
+    ],
+    "functions": [],
+    "name": "stairs",
+    "namespace": "minecraft"
+  }
+}

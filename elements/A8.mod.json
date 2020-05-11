@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RoughRedSandstone"
+    },
+    "blastingReturnStack": {
+      "value": "Blocks.SMOOTH_RED_SANDSTONE"
+    },
+    "name": "a8",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "enhancedvanilla:mossy_setts"
+  },
+  "result": "enhancedvanilla:mossy_sett_slab"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "enhancedvanilla:blocks/mossy_setts",
+    "particle": "enhancedvanilla:blocks/mossy_setts"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/oak_parquet_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/oak_parquet_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/oak_parquet_slab_full"
+    }
+  }
+}

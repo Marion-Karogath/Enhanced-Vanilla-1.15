@@ -1,0 +1,34 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PottedLavender"
+      },
+      {
+        "value": "CUSTOM:PottedRedAmaranth"
+      },
+      {
+        "value": "CUSTOM:PottedOrangeAmaranth"
+      },
+      {
+        "value": "CUSTOM:PottedYellowAmaranth"
+      },
+      {
+        "value": "CUSTOM:PottedRose"
+      },
+      {
+        "value": "CUSTOM:PottedSyringa"
+      },
+      {
+        "value": "CUSTOM:PottedSunflower"
+      }
+    ],
+    "functions": [],
+    "name": "flower_pots",
+    "namespace": "minecraft"
+  }
+}

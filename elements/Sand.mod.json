@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SandRipple"
+      },
+      {
+        "value": "CUSTOM:RedSandRipple"
+      }
+    ],
+    "functions": [],
+    "name": "sand",
+    "namespace": "minecraft"
+  }
+}

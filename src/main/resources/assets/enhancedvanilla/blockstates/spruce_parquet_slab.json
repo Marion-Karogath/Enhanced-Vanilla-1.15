@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/spruce_parquet_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/spruce_parquet_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/spruce_parquet_slab_full"
+    }
+  }
+}

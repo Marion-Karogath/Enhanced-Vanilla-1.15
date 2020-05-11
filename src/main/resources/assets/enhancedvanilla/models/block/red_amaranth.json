@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "enhancedvanilla:blocks/red_amaranth",
+    "particle": "enhancedvanilla:blocks/red_amaranth"
+  }
+}

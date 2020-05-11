@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SoftRedSandstone"
+      },
+      {
+        "value": "CUSTOM:SoftSandstone"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "soft_sandstone",
+    "namespace": "mod"
+  }
+}

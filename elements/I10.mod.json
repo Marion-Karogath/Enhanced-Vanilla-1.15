@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.WHEAT"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:DriedWheat"
+    },
+    "name": "i_1_0",
+    "namespace": "mod"
+  }
+}

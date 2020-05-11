@@ -1,0 +1,32 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:charred_nether_brick"
+    },
+    "1": {
+      "item": "enhancedvanilla:charred_nether_brickitem"
+    },
+    "2": {
+      "item": "enhancedvanilla:charred_nether_brick"
+    },
+    "3": {
+      "item": "enhancedvanilla:charred_nether_brick"
+    },
+    "4": {
+      "item": "enhancedvanilla:charred_nether_brickitem"
+    },
+    "5": {
+      "item": "enhancedvanilla:charred_nether_brick"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:charred_nether_brick_fence",
+    "count": 6
+  }
+}

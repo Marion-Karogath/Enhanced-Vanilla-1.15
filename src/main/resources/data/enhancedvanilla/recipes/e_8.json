@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    "1": {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    "2": {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    "3": {
+      "item": "minecraft:mossy_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:mossy_setts",
+    "count": 4
+  }
+}

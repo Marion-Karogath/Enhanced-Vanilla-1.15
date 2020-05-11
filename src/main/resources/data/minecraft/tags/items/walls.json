@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enhancedvanilla:charred_nether_brick_wall",
+    "enhancedvanilla:mud_brick_wall",
+    "enhancedvanilla:sett_wall",
+    "enhancedvanilla:mossy_sett_wall"
+  ]
+}

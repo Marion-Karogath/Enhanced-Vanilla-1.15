@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enhancedvanilla:blocks/dark_oak_parquet",
+    "particle": "enhancedvanilla:blocks/dark_oak_parquet"
+  }
+}

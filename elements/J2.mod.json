@@ -1,0 +1,45 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Thatch"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Thatch"
+      },
+      {
+        "value": "CUSTOM:Thatch"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Thatch"
+      },
+      {
+        "value": "CUSTOM:Thatch"
+      },
+      {
+        "value": "CUSTOM:Thatch"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThatchStairs"
+    },
+    "name": "j_2",
+    "namespace": "mod"
+  }
+}

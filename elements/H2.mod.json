@@ -1,0 +1,45 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MudBrick"
+      },
+      {
+        "value": "CUSTOM:MudBrick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MudBrick"
+      },
+      {
+        "value": "CUSTOM:MudBrick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MudBricks"
+    },
+    "name": "h_2",
+    "namespace": "mod"
+  }
+}

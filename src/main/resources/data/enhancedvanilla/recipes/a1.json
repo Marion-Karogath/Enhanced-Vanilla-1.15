@@ -1,0 +1,16 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:glowstoneshard"
+    }
+  },
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 9
+  }
+}

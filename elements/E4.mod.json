@@ -1,0 +1,45 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkOakParquet"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquet"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquet"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkOakParquetSlab"
+    },
+    "name": "e_4",
+    "namespace": "mod"
+  }
+}

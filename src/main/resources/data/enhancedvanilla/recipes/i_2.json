@@ -1,0 +1,9 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "enhancedvanilla:mud"
+  },
+  "result": "enhancedvanilla:mud_brick_stairs"
+}

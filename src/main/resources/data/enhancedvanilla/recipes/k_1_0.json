@@ -1,0 +1,9 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "enhancedvanilla:charred_nether_brick"
+  },
+  "result": "enhancedvanilla:charred_nether_brick_slab"
+}

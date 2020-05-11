@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    "1": {
+      "item": "minecraft:jungle_planks"
+    },
+    "2": {
+      "item": "minecraft:jungle_planks"
+    },
+    "3": {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:jungle_parquet",
+    "count": 4
+  }
+}

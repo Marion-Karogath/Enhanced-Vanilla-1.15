@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/mossy_sett_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/mossy_sett_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/mossy_sett_slab_full"
+    }
+  }
+}

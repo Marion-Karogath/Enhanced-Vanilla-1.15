@@ -1,0 +1,31 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:OakTanBark"
+      },
+      {
+        "value": "CUSTOM:SpruceTanBark"
+      },
+      {
+        "value": "CUSTOM:BirchTanBark"
+      },
+      {
+        "value": "CUSTOM:JungleTanbark"
+      },
+      {
+        "value": "CUSTOM:AcaciaTanbark"
+      },
+      {
+        "value": "CUSTOM:DarkOakTanbark"
+      }
+    ],
+    "functions": [],
+    "name": "tanbarks",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enhancedvanilla:oak_tan_bark",
+    "enhancedvanilla:spruce_tan_bark",
+    "enhancedvanilla:birch_tan_bark",
+    "enhancedvanilla:jungle_tanbark",
+    "enhancedvanilla:acacia_tanbark",
+    "enhancedvanilla:dark_oak_tanbark"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:OakParquet"
+      },
+      {
+        "value": "CUSTOM:SpruceParquet"
+      },
+      {
+        "value": "CUSTOM:BirchParquet"
+      },
+      {
+        "value": "CUSTOM:JungleParquet"
+      },
+      {
+        "value": "CUSTOM:AcaciaParquet"
+      },
+      {
+        "value": "CUSTOM:AcaciaParquet"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquet"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:OakParquet"
+      },
+      {
+        "value": "CUSTOM:SpruceParquet"
+      },
+      {
+        "value": "CUSTOM:BirchParquet"
+      },
+      {
+        "value": "CUSTOM:JungleParquet"
+      },
+      {
+        "value": "CUSTOM:AcaciaParquet"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquet"
+      }
+    ],
+    "functions": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

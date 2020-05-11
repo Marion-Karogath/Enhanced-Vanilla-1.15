@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:MudBall"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:MudBrick"
+    },
+    "name": "m_7",
+    "namespace": "mod"
+  }
+}

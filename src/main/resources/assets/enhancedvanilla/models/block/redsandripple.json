@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enhancedvanilla:blocks/red_sand_ripples",
+    "particle": "enhancedvanilla:blocks/red_sand_ripples"
+  }
+}

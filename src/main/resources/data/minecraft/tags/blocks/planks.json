@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enhancedvanilla:oak_parquet",
+    "enhancedvanilla:spruce_parquet",
+    "enhancedvanilla:birch_parquet",
+    "enhancedvanilla:jungle_parquet",
+    "enhancedvanilla:acacia_parquet",
+    "enhancedvanilla:dark_oak_parquet"
+  ]
+}

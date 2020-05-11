@@ -1,0 +1,52 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:OakParquetSlab"
+      },
+      {
+        "value": "CUSTOM:RoughSandstoneSlab"
+      },
+      {
+        "value": "CUSTOM:RoughRedSanstoneSlab"
+      },
+      {
+        "value": "CUSTOM:SpruceParquetSlab"
+      },
+      {
+        "value": "CUSTOM:BirchParquetSlab"
+      },
+      {
+        "value": "CUSTOM:JungleParquetSlab"
+      },
+      {
+        "value": "CUSTOM:AcaciaParquetSlab"
+      },
+      {
+        "value": "CUSTOM:DarkOakParquetSlab"
+      },
+      {
+        "value": "CUSTOM:SettSlab"
+      },
+      {
+        "value": "CUSTOM:MossySettSlab"
+      },
+      {
+        "value": "CUSTOM:MudBrickSlab"
+      },
+      {
+        "value": "CUSTOM:ThatchSlab"
+      },
+      {
+        "value": "CUSTOM:CharredNetherBrickSlab"
+      }
+    ],
+    "functions": [],
+    "name": "slabs",
+    "namespace": "minecraft"
+  }
+}

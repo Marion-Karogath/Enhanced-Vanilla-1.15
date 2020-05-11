@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "enhancedvanilla:roughsandstoneslab",
+    "enhancedvanilla:roughredsanstoneslab",
+    "enhancedvanilla:oak_parquet_slab",
+    "enhancedvanilla:spruce_parquet_slab",
+    "enhancedvanilla:birch_parquet_slab",
+    "enhancedvanilla:jungle_parquet_slab",
+    "enhancedvanilla:acacia_parquet_slab",
+    "enhancedvanilla:dark_oak_parquet_slab",
+    "enhancedvanilla:sett_slab",
+    "enhancedvanilla:mossy_sett_slab",
+    "enhancedvanilla:thatch_slab",
+    "enhancedvanilla:charred_nether_brick_slab"
+  ]
+}

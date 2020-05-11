@@ -1,0 +1,45 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RoughRedSandstone"
+      },
+      {
+        "value": "CUSTOM:RoughRedSandstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RoughRedSandstone"
+      },
+      {
+        "value": "CUSTOM:RoughRedSandstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.RED_SANDSTONE#0"
+    },
+    "name": "a4",
+    "namespace": "mod"
+  }
+}

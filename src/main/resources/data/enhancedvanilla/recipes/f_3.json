@@ -1,0 +1,33 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:mossy_setts"
+    },
+    "3": {
+      "item": "enhancedvanilla:mossy_setts"
+    },
+    "4": {
+      "item": "enhancedvanilla:mossy_setts"
+    },
+    "6": {
+      "item": "enhancedvanilla:mossy_setts"
+    },
+    "7": {
+      "item": "enhancedvanilla:mossy_setts"
+    },
+    "8": {
+      "item": "enhancedvanilla:mossy_setts"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:mossy_sett_stairs",
+    "count": 4
+  }
+}

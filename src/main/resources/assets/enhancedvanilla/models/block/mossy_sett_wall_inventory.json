@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "enhancedvanilla:blocks/mossy_setts",
+    "particle": "enhancedvanilla:blocks/mossy_setts"
+  }
+}

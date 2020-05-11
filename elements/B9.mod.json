@@ -1,0 +1,19 @@
+{
+  "_fv": 7,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:RoughRedSandstone"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:RoughRedSanstoneSlab"
+    },
+    "name": "b_9",
+    "namespace": "mod"
+  }
+}

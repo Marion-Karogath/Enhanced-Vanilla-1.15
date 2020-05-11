@@ -1,0 +1,11 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "enhancedvanilla:roughsandstone"
+  },
+  "result": {
+    "item": "minecraft:smooth_sandstone"
+  }
+}

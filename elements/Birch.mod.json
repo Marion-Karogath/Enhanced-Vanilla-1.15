@@ -1,0 +1,10 @@
+{
+  "_fv": 7,
+  "_type": "fuel",
+  "definition": {
+    "power": 1600,
+    "block": {
+      "value": "CUSTOM:BirchTanBark"
+    }
+  }
+}

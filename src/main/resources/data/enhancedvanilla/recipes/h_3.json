@@ -1,0 +1,16 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:mud"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:mud_ball",
+    "count": 4
+  }
+}

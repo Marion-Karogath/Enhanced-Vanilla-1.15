@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/thatch_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/thatch_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/thatch_slab_full"
+    }
+  }
+}

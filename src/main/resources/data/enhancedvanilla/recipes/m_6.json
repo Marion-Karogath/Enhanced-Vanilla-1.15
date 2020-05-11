@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_red_sandstone"
+    },
+    "1": {
+      "item": "minecraft:smooth_red_sandstone"
+    },
+    "2": {
+      "item": "minecraft:smooth_red_sandstone"
+    },
+    "3": {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:soft_red_sandstone",
+    "count": 4
+  }
+}

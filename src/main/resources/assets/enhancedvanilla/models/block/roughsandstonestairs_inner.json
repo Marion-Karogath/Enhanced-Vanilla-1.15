@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "enhancedvanilla:blocks/rough_sandstone",
+    "top": "enhancedvanilla:blocks/rough_sandstone",
+    "side": "enhancedvanilla:blocks/rough_sandstone"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "enhancedvanilla:roughsandstonestairs",
+    "enhancedvanilla:roughredsandstonestairs",
+    "enhancedvanilla:oak_parquet_stairs",
+    "enhancedvanilla:spruce_parquet_stairs",
+    "enhancedvanilla:birch_parquet_stairs",
+    "enhancedvanilla:jungle_parquet_stairs",
+    "enhancedvanilla:acacia_parquet_stairs",
+    "enhancedvanilla:dark_oak_parquet_stairs",
+    "enhancedvanilla:sett_stairs",
+    "enhancedvanilla:mossy_sett_stairs",
+    "enhancedvanilla:mud_brick_stairs",
+    "enhancedvanilla:thatch_stairs",
+    "enhancedvanilla:charred_nether_brick_stairs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/charred_nether_brick_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/charred_nether_brick_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/charred_nether_brick_slab_full"
+    }
+  }
+}

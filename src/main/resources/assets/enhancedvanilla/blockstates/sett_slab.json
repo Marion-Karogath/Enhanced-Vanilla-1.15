@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/sett_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/sett_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/sett_slab_full"
+    }
+  }
+}

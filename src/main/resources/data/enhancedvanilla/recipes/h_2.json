@@ -1,0 +1,26 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:mud_brick"
+    },
+    "1": {
+      "item": "enhancedvanilla:mud_brick"
+    },
+    "2": {
+      "item": "enhancedvanilla:mud_brick"
+    },
+    "3": {
+      "item": "enhancedvanilla:mud_brick"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:mud_bricks",
+    "count": 4
+  }
+}

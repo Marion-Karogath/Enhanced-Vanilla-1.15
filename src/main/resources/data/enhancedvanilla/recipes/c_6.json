@@ -1,0 +1,13 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enhancedvanilla:yellow_amaranth"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 1
+  }
+}

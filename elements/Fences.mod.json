@@ -1,0 +1,20 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:CharredNetherBrickFence"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:CharredNetherBrickFence"
+      }
+    ],
+    "functions": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

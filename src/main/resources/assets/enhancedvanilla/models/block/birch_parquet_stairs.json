@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "enhancedvanilla:blocks/birch_parquet",
+    "top": "enhancedvanilla:blocks/birch_parquet",
+    "side": "enhancedvanilla:blocks/birch_parquet"
+  }
+}

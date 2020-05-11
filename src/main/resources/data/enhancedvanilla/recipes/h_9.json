@@ -1,0 +1,11 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "enhancedvanilla:mud_bricks"
+  },
+  "result": {
+    "item": "enhancedvanilla:cracked_mud_bricks"
+  }
+}

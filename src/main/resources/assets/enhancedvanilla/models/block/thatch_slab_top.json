@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "enhancedvanilla:blocks/thatch",
+    "top": "enhancedvanilla:blocks/thatch",
+    "side": "enhancedvanilla:blocks/thatch"
+  }
+}

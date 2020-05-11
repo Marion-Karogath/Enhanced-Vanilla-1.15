@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enhancedvanilla:blocks/cracked_mud_bricks",
+    "particle": "enhancedvanilla:blocks/cracked_mud_bricks"
+  }
+}

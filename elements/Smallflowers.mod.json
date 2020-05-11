@@ -1,0 +1,37 @@
+{
+  "_fv": 7,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Lavender"
+      },
+      {
+        "value": "CUSTOM:RedAmaranth"
+      },
+      {
+        "value": "CUSTOM:OrangeAmaranth"
+      },
+      {
+        "value": "CUSTOM:YellowAmaranth"
+      },
+      {
+        "value": "CUSTOM:Paeonia"
+      },
+      {
+        "value": "CUSTOM:Rose"
+      },
+      {
+        "value": "CUSTOM:Syringa"
+      },
+      {
+        "value": "CUSTOM:Helianthus"
+      }
+    ],
+    "functions": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

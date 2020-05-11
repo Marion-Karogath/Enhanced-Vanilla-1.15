@@ -1,0 +1,9 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:stone_bricks"
+  },
+  "result": "enhancedvanilla:sett_wall"
+}

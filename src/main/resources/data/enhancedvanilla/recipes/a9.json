@@ -1,0 +1,33 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enhancedvanilla:roughsandstone"
+    },
+    "3": {
+      "item": "enhancedvanilla:roughsandstone"
+    },
+    "4": {
+      "item": "enhancedvanilla:roughsandstone"
+    },
+    "6": {
+      "item": "enhancedvanilla:roughsandstone"
+    },
+    "7": {
+      "item": "enhancedvanilla:roughsandstone"
+    },
+    "8": {
+      "item": "enhancedvanilla:roughsandstone"
+    }
+  },
+  "result": {
+    "item": "enhancedvanilla:roughsandstonestairs",
+    "count": 4
+  }
+}

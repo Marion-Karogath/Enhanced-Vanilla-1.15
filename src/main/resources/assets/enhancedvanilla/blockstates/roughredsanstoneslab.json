@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/roughredsanstoneslab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/roughredsanstoneslab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/roughredsanstoneslab_full"
+    }
+  }
+}

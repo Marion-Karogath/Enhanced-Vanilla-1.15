@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "enhancedvanilla:blocks/charred_nether_bricks",
+    "top": "enhancedvanilla:blocks/charred_nether_bricks",
+    "side": "enhancedvanilla:blocks/charred_nether_bricks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "enhancedvanilla:custom/flower_pot_cross_2",
+  "textures": {
+    "all": "enhancedvanilla:blocks/flower_pot",
+    "particle": "enhancedvanilla:blocks/flower_pot",
+    "flowerpot": "enhancedvanilla:blocks/flower_pot",
+    "plant": "enhancedvanilla:blocks/paeonia",
+    "dirt": "enhancedvanilla:blocks/dirt"
+  }
+}

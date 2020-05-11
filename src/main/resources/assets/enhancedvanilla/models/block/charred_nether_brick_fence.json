@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "enhancedvanilla:blocks/charred_nether_bricks",
+    "particle": "enhancedvanilla:blocks/charred_nether_bricks"
+  }
+}
