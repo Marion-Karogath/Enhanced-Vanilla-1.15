@@ -51,7 +51,7 @@ public class RedAmaranthBlock extends EnhancedVanillaElements.ModElement {
 	@ObjectHolder("enhancedvanilla:red_amaranth")
 	public static final Block block = null;
 	public RedAmaranthBlock(EnhancedVanillaElements instance) {
-		super(instance, 12);
+		super(instance, 65);
 	}
 
 	@Override
@@ -87,7 +87,15 @@ public class RedAmaranthBlock extends EnhancedVanillaElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("enhancedvanilla:amaranth_fields")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle_hills")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle_edge")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("modified_jungle")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("modified_jungle_edge")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
@@ -95,7 +103,7 @@ public class RedAmaranthBlock extends EnhancedVanillaElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(100))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(1))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

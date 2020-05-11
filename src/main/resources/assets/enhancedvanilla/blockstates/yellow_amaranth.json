@@ -1,6 +1,51 @@
 {
   "variants": {
-    "": {
+    "age=0": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=1": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=2": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=3": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=4": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=5": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=6": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=7": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=8": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=9": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=10": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=11": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=12": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=13": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=14": {
+      "model": "enhancedvanilla:block/yellow_amaranth"
+    },
+    "age=15": {
       "model": "enhancedvanilla:block/yellow_amaranth"
     }
   }

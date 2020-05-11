@@ -51,7 +51,7 @@ public class LavenderBlock extends EnhancedVanillaElements.ModElement {
 	@ObjectHolder("enhancedvanilla:lavender")
 	public static final Block block = null;
 	public LavenderBlock(EnhancedVanillaElements instance) {
-		super(instance, 11);
+		super(instance, 64);
 	}
 
 	@Override
@@ -87,7 +87,13 @@ public class LavenderBlock extends EnhancedVanillaElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("enhancedvanilla:lavender_fields")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("savanna")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("savanna_plateau")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("shattered_savanna")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("shattered_savanna_plateau")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
@@ -95,7 +101,7 @@ public class LavenderBlock extends EnhancedVanillaElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(132))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(1))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

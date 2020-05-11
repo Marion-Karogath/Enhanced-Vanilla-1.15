@@ -269,7 +269,7 @@
       "type": "plant",
       "sortid": 64,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "lavender"
     },
@@ -278,7 +278,7 @@
       "type": "plant",
       "sortid": 65,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "red_amaranth"
     },
@@ -287,7 +287,7 @@
       "type": "plant",
       "sortid": 66,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "orange_amaranth"
     },
@@ -296,7 +296,7 @@
       "type": "plant",
       "sortid": 67,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yellow_amaranth"
     },
@@ -335,24 +335,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "c_6"
-    },
-    {
-      "name": "LavenderFields",
-      "type": "biome",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lavender_fields"
-    },
-    {
-      "name": "AmaranthFields",
-      "type": "biome",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amaranth_fields"
     },
     {
       "name": "OakParquet",
@@ -2652,51 +2634,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "death_cap_mushroom"
-    },
-    {
-      "name": "Chaparral",
-      "type": "biome",
-      "sortid": 240,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chaparral"
-    },
-    {
-      "name": "Bush",
-      "type": "structure",
-      "sortid": 241,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bush"
-    },
-    {
-      "name": "Bush1",
-      "type": "structure",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bush_1"
-    },
-    {
-      "name": "Shrub1",
-      "type": "structure",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "shrub_1"
-    },
-    {
-      "name": "Shrub2",
-      "type": "structure",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "shrub_2"
     },
     {
       "name": "M4",

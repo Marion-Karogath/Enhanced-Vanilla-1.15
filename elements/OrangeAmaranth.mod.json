@@ -36,7 +36,19 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:AmaranthFields"
+        "value": "jungle"
+      },
+      {
+        "value": "jungle_hills"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "mutated_jungle"
+      },
+      {
+        "value": "mutated_jungle_edge"
       }
     ]
   }

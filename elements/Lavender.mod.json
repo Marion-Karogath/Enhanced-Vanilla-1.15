@@ -30,13 +30,22 @@
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 40,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:LavenderFields"
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "mutated_savanna_rock"
       }
     ]
   }
