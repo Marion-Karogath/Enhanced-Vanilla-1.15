@@ -717,7 +717,7 @@
     {
       "name": "MossySetts",
       "type": "block",
-      "sortid": 15,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -735,7 +735,7 @@
     {
       "name": "SettStairs",
       "type": "block",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -744,7 +744,7 @@
     {
       "name": "SettSlab",
       "type": "block",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -753,7 +753,7 @@
     {
       "name": "MossySettStairs",
       "type": "block",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2989,7 +2989,7 @@
     {
       "name": "M10",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2998,7 +2998,7 @@
     {
       "name": "M9",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {},

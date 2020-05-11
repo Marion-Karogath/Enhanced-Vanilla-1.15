@@ -25,7 +25,7 @@ public class SettSlabBlock extends EnhancedVanillaElements.ModElement {
 	@ObjectHolder("enhancedvanilla:sett_slab")
 	public static final Block block = null;
 	public SettSlabBlock(EnhancedVanillaElements instance) {
-		super(instance, 14);
+		super(instance, 16);
 	}
 
 	@Override
