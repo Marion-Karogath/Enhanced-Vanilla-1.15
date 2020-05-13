@@ -1,0 +1,12 @@
+{
+  "parent": "enhancedvanilla:custom/lava_cauldron_level3",
+  "textures": {
+    "all": "enhancedvanilla:blocks/lava_still",
+    "particle": "enhancedvanilla:blocks/lava_still",
+    "side": "enhancedvanilla:blocks/cauldron_side",
+    "top": "enhancedvanilla:blocks/cauldron_top",
+    "4": "enhancedvanilla:blocks/lava_still",
+    "bottom": "enhancedvanilla:blocks/cauldron_bottom",
+    "inside": "enhancedvanilla:blocks/cauldron_inner"
+  }
+}

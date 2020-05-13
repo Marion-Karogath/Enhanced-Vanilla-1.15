@@ -2973,6 +2973,66 @@
           }
         ]
       }
+    },
+    {
+      "name": "LavaCauldronLevel1",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_cauldron_level_1"
+    },
+    {
+      "name": "LavaCauldronLevel2",
+      "type": "block",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_cauldron_level_2"
+    },
+    {
+      "name": "LavaCauldronLevel3",
+      "type": "block",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_cauldron_level_3"
+    },
+    {
+      "name": "RightClicksCauldron",
+      "type": "procedure",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "right_clicks_cauldron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3021,6 +3081,7 @@
       "block.enhancedvanilla.mud": "Mud",
       "block.enhancedvanilla.spruce_parquet_stairs": "Spruce Parquet Stairs",
       "block.enhancedvanilla.birch_parquet": "Birch Parquet",
+      "block.enhancedvanilla.lava_cauldron_level_3": "Cauldron",
       "block.enhancedvanilla.birch_parquet_stairs": "Birch Parquet Stairs",
       "block.enhancedvanilla.yellow_amaranth": "Yellow Amaranth",
       "block.enhancedvanilla.mud_brick_wall": "Mud Brick Wall",
@@ -3039,6 +3100,8 @@
       "block.enhancedvanilla.mud_brick_slab": "Mud Brick Slab",
       "block.enhancedvanilla.sett_stairs": "Sett Stairs",
       "block.enhancedvanilla.rose": "Rose",
+      "block.enhancedvanilla.lava_cauldron_level_1": "Cauldron",
+      "block.enhancedvanilla.lava_cauldron_level_2": "Cauldron",
       "block.enhancedvanilla.orange_amaranth": "Orange Amaranth",
       "block.enhancedvanilla.acacia_parquet_stairs": "Acacia Parquet Stairs",
       "block.enhancedvanilla.glowstoneore": "Glowstone Ore",
