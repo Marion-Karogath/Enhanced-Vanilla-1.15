@@ -28,11 +28,11 @@ import com.karogath.enhancedvanilla.block.PaeoniaBlock;
 import com.karogath.enhancedvanilla.block.OrangeAmaranthBlock;
 import com.karogath.enhancedvanilla.block.LavenderBlock;
 import com.karogath.enhancedvanilla.block.HelianthusBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PlayerRightClicksLavenderPottedProcedure extends EnhancedVanillaElements.ModElement {
-	public PlayerRightClicksLavenderPottedProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PlayerRightClicksLavenderPottedProcedure extends EnhancedvanillaModElements.ModElement {
+	public PlayerRightClicksLavenderPottedProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 204);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

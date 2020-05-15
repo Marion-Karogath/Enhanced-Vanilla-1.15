@@ -22,13 +22,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RoughSandstoneStairsBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RoughSandstoneStairsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:roughsandstonestairs")
 	public static final Block block = null;
-	public RoughSandstoneStairsBlock(EnhancedVanillaElements instance) {
+	public RoughSandstoneStairsBlock(EnhancedvanillaModElements instance) {
 		super(instance, 24);
 	}
 

@@ -13,11 +13,11 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PlayerRightClicksProcedure extends EnhancedVanillaElements.ModElement {
-	public PlayerRightClicksProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PlayerRightClicksProcedure extends EnhancedvanillaModElements.ModElement {
+	public PlayerRightClicksProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 277);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

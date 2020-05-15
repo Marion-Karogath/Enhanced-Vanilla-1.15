@@ -42,13 +42,13 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.procedures.PottedLavenderOnBlockRightClickedProcedure;
 import com.karogath.enhancedvanilla.procedures.CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByPlayerProcedure;
 import com.karogath.enhancedvanilla.procedures.CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedLavenderBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedLavenderBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_lavender")
 	public static final Block block = null;
-	public PottedLavenderBlock(EnhancedVanillaElements instance) {
+	public PottedLavenderBlock(EnhancedvanillaModElements instance) {
 		super(instance, 201);
 	}
 

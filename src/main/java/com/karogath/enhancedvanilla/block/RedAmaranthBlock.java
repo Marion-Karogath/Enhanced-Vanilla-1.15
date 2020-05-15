@@ -44,13 +44,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RedAmaranthBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RedAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:red_amaranth")
 	public static final Block block = null;
-	public RedAmaranthBlock(EnhancedVanillaElements instance) {
+	public RedAmaranthBlock(EnhancedvanillaModElements instance) {
 		super(instance, 65);
 	}
 

@@ -44,13 +44,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RoseBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RoseBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:rose")
 	public static final Block block = null;
-	public RoseBlock(EnhancedVanillaElements instance) {
+	public RoseBlock(EnhancedvanillaModElements instance) {
 		super(instance, 62);
 	}
 

@@ -8,11 +8,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.item.ItemStack;
 
 import com.karogath.enhancedvanilla.block.OakTanBarkBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class OakFuel extends EnhancedVanillaElements.ModElement {
-	public OakFuel(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class OakFuel extends EnhancedvanillaModElements.ModElement {
+	public OakFuel(EnhancedvanillaModElements instance) {
 		super(instance, 189);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

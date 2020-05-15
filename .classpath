@@ -30,12 +30,12 @@
 	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1.jar">
+	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1-recomp.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.63_mapped_snapshot_20200225-1.15.1-launcher.jar">
+	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1/forge-1.15.2-31.1.87_mapped_snapshot_20200225-1.15.1-launcher.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -50,7 +50,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/2.1.0/c42f7381e3344313bfc8f19b7804d83f236dbff9/eventbus-2.1.0-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/2.1.0/3bd19d594d0b193b84795fab50ae3c991d3799fa/eventbus-2.1.0-service.jar">
+	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/2.2.0/fb27a9f2e9eb1b4a0b79bb3a312b9b43f6b0bc32/eventbus-2.2.0-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/2.2.0/e663ad1f795b81da8a132c8fde40580b05c2343d/eventbus-2.2.0-service.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -145,7 +145,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.6.1/dfe302e8786949d3aadc6f1f2872bbd6150c6f5a/typetools-0.6.1-sources.jar" kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.6.1/55a544eebff09427be04bebfc62bfc4cc2de8c93/typetools-0.6.1.jar">
+	<classpathentry kind="lib" path="C:/Users/Bookkeeper1/.mcreator/gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.8.1/d12de898d333cb7eb0e39a35db03c1e09d92d595/typetools-0.8.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

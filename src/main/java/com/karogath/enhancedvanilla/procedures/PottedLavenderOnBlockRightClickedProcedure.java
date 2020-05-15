@@ -10,11 +10,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import com.karogath.enhancedvanilla.block.LavenderBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedLavenderOnBlockRightClickedProcedure extends EnhancedVanillaElements.ModElement {
-	public PottedLavenderOnBlockRightClickedProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedLavenderOnBlockRightClickedProcedure extends EnhancedvanillaModElements.ModElement {
+	public PottedLavenderOnBlockRightClickedProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 200);
 	}
 

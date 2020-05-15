@@ -10,11 +10,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import com.karogath.enhancedvanilla.block.HelianthusBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RightClickedSunflowerProcedure extends EnhancedVanillaElements.ModElement {
-	public RightClickedSunflowerProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RightClickedSunflowerProcedure extends EnhancedvanillaModElements.ModElement {
+	public RightClickedSunflowerProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 230);
 	}
 

@@ -8,13 +8,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class MudBrickItem extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class MudBrickItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mud_brick")
 	public static final Item block = null;
-	public MudBrickItem(EnhancedVanillaElements instance) {
+	public MudBrickItem(EnhancedvanillaModElements instance) {
 		super(instance, 59);
 	}
 

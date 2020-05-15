@@ -5,11 +5,11 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class DeathCapMushroomFoodEatenProcedure extends EnhancedVanillaElements.ModElement {
-	public DeathCapMushroomFoodEatenProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class DeathCapMushroomFoodEatenProcedure extends EnhancedvanillaModElements.ModElement {
+	public DeathCapMushroomFoodEatenProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 239);
 	}
 

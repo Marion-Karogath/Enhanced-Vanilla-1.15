@@ -42,13 +42,13 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.procedures.SyringaPlayerProcedure;
 import com.karogath.enhancedvanilla.procedures.SyringaExplosionProcedure;
 import com.karogath.enhancedvanilla.procedures.RightClickedSyringaProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedSyringaBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedSyringaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_syringa")
 	public static final Block block = null;
-	public PottedSyringaBlock(EnhancedVanillaElements instance) {
+	public PottedSyringaBlock(EnhancedvanillaModElements instance) {
 		super(instance, 225);
 	}
 

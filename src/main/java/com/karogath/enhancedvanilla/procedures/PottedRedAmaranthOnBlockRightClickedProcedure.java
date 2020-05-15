@@ -10,11 +10,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import com.karogath.enhancedvanilla.block.RedAmaranthBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedRedAmaranthOnBlockRightClickedProcedure extends EnhancedVanillaElements.ModElement {
-	public PottedRedAmaranthOnBlockRightClickedProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedRedAmaranthOnBlockRightClickedProcedure extends EnhancedvanillaModElements.ModElement {
+	public PottedRedAmaranthOnBlockRightClickedProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 206);
 	}
 

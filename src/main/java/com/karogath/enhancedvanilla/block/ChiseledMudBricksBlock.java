@@ -17,13 +17,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class ChiseledMudBricksBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class ChiseledMudBricksBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:chiseled_mud_bricks")
 	public static final Block block = null;
-	public ChiseledMudBricksBlock(EnhancedVanillaElements instance) {
+	public ChiseledMudBricksBlock(EnhancedvanillaModElements instance) {
 		super(instance, 8);
 	}
 

@@ -8,13 +8,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class CharredNetherBrickitemItem extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class CharredNetherBrickitemItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:charred_nether_brickitem")
 	public static final Item block = null;
-	public CharredNetherBrickitemItem(EnhancedVanillaElements instance) {
+	public CharredNetherBrickitemItem(EnhancedvanillaModElements instance) {
 		super(instance, 56);
 	}
 

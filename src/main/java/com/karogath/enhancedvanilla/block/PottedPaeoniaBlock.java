@@ -42,13 +42,13 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.procedures.RightClickedPaeoniaProcedure;
 import com.karogath.enhancedvanilla.procedures.PaeoniaPlayerProcedure;
 import com.karogath.enhancedvanilla.procedures.PaeoniaExplosionProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedPaeoniaBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedPaeoniaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_paeonia")
 	public static final Block block = null;
-	public PottedPaeoniaBlock(EnhancedVanillaElements instance) {
+	public PottedPaeoniaBlock(EnhancedvanillaModElements instance) {
 		super(instance, 217);
 	}
 

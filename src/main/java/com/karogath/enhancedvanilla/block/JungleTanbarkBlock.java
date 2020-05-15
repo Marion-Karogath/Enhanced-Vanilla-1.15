@@ -18,13 +18,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class JungleTanbarkBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class JungleTanbarkBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:jungle_tanbark")
 	public static final Block block = null;
-	public JungleTanbarkBlock(EnhancedVanillaElements instance) {
+	public JungleTanbarkBlock(EnhancedvanillaModElements instance) {
 		super(instance, 49);
 	}
 

@@ -42,13 +42,13 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.procedures.RosePlayerProcedure;
 import com.karogath.enhancedvanilla.procedures.RoseExplosionProcedure;
 import com.karogath.enhancedvanilla.procedures.RightClickedRoseProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedRoseBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedRoseBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_rose")
 	public static final Block block = null;
-	public PottedRoseBlock(EnhancedVanillaElements instance) {
+	public PottedRoseBlock(EnhancedvanillaModElements instance) {
 		super(instance, 221);
 	}
 

@@ -33,13 +33,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class SandRippleBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class SandRippleBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:sandripple")
 	public static final Block block = null;
-	public SandRippleBlock(EnhancedVanillaElements instance) {
+	public SandRippleBlock(EnhancedvanillaModElements instance) {
 		super(instance, 18);
 	}
 

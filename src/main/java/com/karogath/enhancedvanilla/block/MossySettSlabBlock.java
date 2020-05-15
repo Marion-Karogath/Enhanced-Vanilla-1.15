@@ -18,13 +18,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class MossySettSlabBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class MossySettSlabBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mossy_sett_slab")
 	public static final Block block = null;
-	public MossySettSlabBlock(EnhancedVanillaElements instance) {
+	public MossySettSlabBlock(EnhancedvanillaModElements instance) {
 		super(instance, 17);
 	}
 

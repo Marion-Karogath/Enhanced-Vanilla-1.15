@@ -6,11 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
 import com.karogath.enhancedvanilla.block.HelianthusBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class SunflowerPlayerProcedure extends EnhancedVanillaElements.ModElement {
-	public SunflowerPlayerProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class SunflowerPlayerProcedure extends EnhancedvanillaModElements.ModElement {
+	public SunflowerPlayerProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 232);
 	}
 

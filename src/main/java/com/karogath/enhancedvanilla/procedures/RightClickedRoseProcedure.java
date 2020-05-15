@@ -10,11 +10,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import com.karogath.enhancedvanilla.block.RoseBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RightClickedRoseProcedure extends EnhancedVanillaElements.ModElement {
-	public RightClickedRoseProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RightClickedRoseProcedure extends EnhancedvanillaModElements.ModElement {
+	public RightClickedRoseProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 222);
 	}
 

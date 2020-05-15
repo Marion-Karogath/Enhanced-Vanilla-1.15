@@ -6,11 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
 import com.karogath.enhancedvanilla.block.LavenderBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure extends EnhancedVanillaElements.ModElement {
-	public CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure extends EnhancedvanillaModElements.ModElement {
+	public CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 202);
 	}
 

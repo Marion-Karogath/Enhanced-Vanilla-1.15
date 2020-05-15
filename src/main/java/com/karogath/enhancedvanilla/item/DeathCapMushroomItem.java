@@ -12,13 +12,13 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
 import com.karogath.enhancedvanilla.procedures.DeathCapMushroomFoodEatenProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class DeathCapMushroomItem extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class DeathCapMushroomItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:death_cap_mushroom")
 	public static final Item block = null;
-	public DeathCapMushroomItem(EnhancedVanillaElements instance) {
+	public DeathCapMushroomItem(EnhancedvanillaModElements instance) {
 		super(instance, 73);
 	}
 

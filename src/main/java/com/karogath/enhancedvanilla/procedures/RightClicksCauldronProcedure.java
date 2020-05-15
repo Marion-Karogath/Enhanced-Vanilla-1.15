@@ -17,11 +17,11 @@ import net.minecraft.block.Blocks;
 import com.karogath.enhancedvanilla.block.LavaCauldronLevel3Block;
 import com.karogath.enhancedvanilla.block.LavaCauldronLevel2Block;
 import com.karogath.enhancedvanilla.block.LavaCauldronLevel1Block;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RightClicksCauldronProcedure extends EnhancedVanillaElements.ModElement {
-	public RightClicksCauldronProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RightClicksCauldronProcedure extends EnhancedvanillaModElements.ModElement {
+	public RightClicksCauldronProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 282);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

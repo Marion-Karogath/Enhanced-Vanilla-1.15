@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "enhancedvanilla:block/soft_sandstone_slab"
+    },
+    "type=top": {
+      "model": "enhancedvanilla:block/soft_sandstone_slab_top"
+    },
+    "type=double": {
+      "model": "enhancedvanilla:block/soft_sandstone_slab_full"
+    }
+  }
+}

@@ -44,13 +44,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class HelianthusBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class HelianthusBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:helianthus")
 	public static final Block block = null;
-	public HelianthusBlock(EnhancedVanillaElements instance) {
+	public HelianthusBlock(EnhancedvanillaModElements instance) {
 		super(instance, 60);
 	}
 

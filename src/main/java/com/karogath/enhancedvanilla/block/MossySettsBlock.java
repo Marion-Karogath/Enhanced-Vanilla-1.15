@@ -17,13 +17,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class MossySettsBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class MossySettsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mossy_setts")
 	public static final Block block = null;
-	public MossySettsBlock(EnhancedVanillaElements instance) {
+	public MossySettsBlock(EnhancedvanillaModElements instance) {
 		super(instance, 13);
 	}
 

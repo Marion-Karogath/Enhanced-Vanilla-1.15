@@ -6,11 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
 import com.karogath.enhancedvanilla.block.SyringaBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class SyringaExplosionProcedure extends EnhancedVanillaElements.ModElement {
-	public SyringaExplosionProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class SyringaExplosionProcedure extends EnhancedvanillaModElements.ModElement {
+	public SyringaExplosionProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 227);
 	}
 

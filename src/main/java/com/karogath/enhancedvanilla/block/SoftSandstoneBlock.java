@@ -21,13 +21,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class SoftSandstoneBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class SoftSandstoneBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:soft_sandstone")
 	public static final Block block = null;
-	public SoftSandstoneBlock(EnhancedVanillaElements instance) {
+	public SoftSandstoneBlock(EnhancedvanillaModElements instance) {
 		super(instance, 20);
 	}
 

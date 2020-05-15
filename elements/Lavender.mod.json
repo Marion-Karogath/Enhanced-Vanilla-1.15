@@ -1,5 +1,5 @@
 {
-  "_fv": 7,
+  "_fv": 8,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -23,11 +23,14 @@
       "value": "CUSTOM:Lavender"
     },
     "dropAmount": 1,
+    "forceTicking": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": "CUSTOM:Lavender"
     },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 1,

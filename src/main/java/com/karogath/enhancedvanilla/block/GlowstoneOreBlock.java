@@ -36,13 +36,13 @@ import java.util.List;
 import java.util.Collections;
 
 import com.karogath.enhancedvanilla.item.GlowstoneShardItem;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class GlowstoneOreBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class GlowstoneOreBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:glowstoneore")
 	public static final Block block = null;
-	public GlowstoneOreBlock(EnhancedVanillaElements instance) {
+	public GlowstoneOreBlock(EnhancedvanillaModElements instance) {
 		super(instance, 1);
 	}
 

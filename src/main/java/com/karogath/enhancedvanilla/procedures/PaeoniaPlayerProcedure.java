@@ -6,11 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
 import com.karogath.enhancedvanilla.block.PaeoniaBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PaeoniaPlayerProcedure extends EnhancedVanillaElements.ModElement {
-	public PaeoniaPlayerProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PaeoniaPlayerProcedure extends EnhancedvanillaModElements.ModElement {
+	public PaeoniaPlayerProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 220);
 	}
 

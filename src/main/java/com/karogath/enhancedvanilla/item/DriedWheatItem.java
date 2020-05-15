@@ -8,13 +8,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class DriedWheatItem extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class DriedWheatItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:dried_wheat")
 	public static final Item block = null;
-	public DriedWheatItem(EnhancedVanillaElements instance) {
+	public DriedWheatItem(EnhancedvanillaModElements instance) {
 		super(instance, 57);
 	}
 

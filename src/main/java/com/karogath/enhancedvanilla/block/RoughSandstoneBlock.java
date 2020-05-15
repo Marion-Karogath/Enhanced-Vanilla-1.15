@@ -35,13 +35,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RoughSandstoneBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RoughSandstoneBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:roughsandstone")
 	public static final Block block = null;
-	public RoughSandstoneBlock(EnhancedVanillaElements instance) {
+	public RoughSandstoneBlock(EnhancedvanillaModElements instance) {
 		super(instance, 19);
 	}
 

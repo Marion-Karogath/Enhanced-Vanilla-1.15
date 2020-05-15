@@ -6,11 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
 import com.karogath.enhancedvanilla.block.YellowAmaranthBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class YellowAmaranthPlayerProcedure extends EnhancedVanillaElements.ModElement {
-	public YellowAmaranthPlayerProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class YellowAmaranthPlayerProcedure extends EnhancedvanillaModElements.ModElement {
+	public YellowAmaranthPlayerProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 216);
 	}
 

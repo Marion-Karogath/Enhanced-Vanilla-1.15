@@ -42,13 +42,13 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.procedures.YellowAmaranthPlayerProcedure;
 import com.karogath.enhancedvanilla.procedures.YellowAmaranthExplosionProcedure;
 import com.karogath.enhancedvanilla.procedures.RightClickedYellowAmaranthProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedYellowAmaranthBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedYellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_yellow_amaranth")
 	public static final Block block = null;
-	public PottedYellowAmaranthBlock(EnhancedVanillaElements instance) {
+	public PottedYellowAmaranthBlock(EnhancedvanillaModElements instance) {
 		super(instance, 213);
 	}
 

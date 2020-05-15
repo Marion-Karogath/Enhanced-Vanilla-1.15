@@ -6,11 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
 import com.karogath.enhancedvanilla.block.RoseBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RoseExplosionProcedure extends EnhancedVanillaElements.ModElement {
-	public RoseExplosionProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RoseExplosionProcedure extends EnhancedvanillaModElements.ModElement {
+	public RoseExplosionProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 223);
 	}
 

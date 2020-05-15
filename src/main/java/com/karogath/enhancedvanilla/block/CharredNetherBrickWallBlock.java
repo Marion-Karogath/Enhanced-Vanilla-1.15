@@ -32,13 +32,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class CharredNetherBrickWallBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class CharredNetherBrickWallBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:charred_nether_brick_wall")
 	public static final Block block = null;
-	public CharredNetherBrickWallBlock(EnhancedVanillaElements instance) {
+	public CharredNetherBrickWallBlock(EnhancedvanillaModElements instance) {
 		super(instance, 69);
 	}
 

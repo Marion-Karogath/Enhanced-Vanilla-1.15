@@ -10,11 +10,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import com.karogath.enhancedvanilla.block.PaeoniaBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RightClickedPaeoniaProcedure extends EnhancedVanillaElements.ModElement {
-	public RightClickedPaeoniaProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RightClickedPaeoniaProcedure extends EnhancedvanillaModElements.ModElement {
+	public RightClickedPaeoniaProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 218);
 	}
 

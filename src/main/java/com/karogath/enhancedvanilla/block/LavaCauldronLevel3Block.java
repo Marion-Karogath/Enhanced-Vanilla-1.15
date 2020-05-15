@@ -31,13 +31,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class LavaCauldronLevel3Block extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class LavaCauldronLevel3Block extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:lava_cauldron_level_3")
 	public static final Block block = null;
-	public LavaCauldronLevel3Block(EnhancedVanillaElements instance) {
+	public LavaCauldronLevel3Block(EnhancedvanillaModElements instance) {
 		super(instance, 281);
 	}
 

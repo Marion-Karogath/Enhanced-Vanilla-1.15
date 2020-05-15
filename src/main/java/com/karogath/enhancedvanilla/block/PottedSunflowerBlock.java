@@ -42,13 +42,13 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.procedures.SunflowerPlayerProcedure;
 import com.karogath.enhancedvanilla.procedures.SunflowerExplosionProcedure;
 import com.karogath.enhancedvanilla.procedures.RightClickedSunflowerProcedure;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PottedSunflowerBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PottedSunflowerBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_sunflower")
 	public static final Block block = null;
-	public PottedSunflowerBlock(EnhancedVanillaElements instance) {
+	public PottedSunflowerBlock(EnhancedvanillaModElements instance) {
 		super(instance, 229);
 	}
 

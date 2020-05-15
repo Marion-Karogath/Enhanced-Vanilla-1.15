@@ -18,13 +18,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class MudBrickStairsBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class MudBrickStairsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mud_brick_stairs")
 	public static final Block block = null;
-	public MudBrickStairsBlock(EnhancedVanillaElements instance) {
+	public MudBrickStairsBlock(EnhancedvanillaModElements instance) {
 		super(instance, 9);
 	}
 

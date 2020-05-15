@@ -33,13 +33,13 @@ import java.util.List;
 import java.util.Collections;
 
 import com.karogath.enhancedvanilla.item.MudBallItem;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class MudBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class MudBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mud")
 	public static final Block block = null;
-	public MudBlock(EnhancedVanillaElements instance) {
+	public MudBlock(EnhancedvanillaModElements instance) {
 		super(instance, 5);
 	}
 

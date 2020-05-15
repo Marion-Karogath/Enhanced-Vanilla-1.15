@@ -28,11 +28,11 @@ import net.minecraft.block.BlockState;
 
 import java.util.Random;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PillagerArcherTowerStructure extends EnhancedVanillaElements.ModElement {
-	public PillagerArcherTowerStructure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PillagerArcherTowerStructure extends EnhancedvanillaModElements.ModElement {
+	public PillagerArcherTowerStructure(EnhancedvanillaModElements instance) {
 		super(instance, 233);
 	}
 

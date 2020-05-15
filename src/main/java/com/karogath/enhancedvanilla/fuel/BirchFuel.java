@@ -8,11 +8,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.item.ItemStack;
 
 import com.karogath.enhancedvanilla.block.BirchTanBarkBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class BirchFuel extends EnhancedVanillaElements.ModElement {
-	public BirchFuel(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class BirchFuel extends EnhancedvanillaModElements.ModElement {
+	public BirchFuel(EnhancedvanillaModElements instance) {
 		super(instance, 193);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

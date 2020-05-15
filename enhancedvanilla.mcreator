@@ -3033,6 +3033,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "SoftSandstoneStairs",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soft_sandstone_stairs"
+    },
+    {
+      "name": "SoftSandstoneSlab",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soft_sandstone_slab"
+    },
+    {
+      "name": "SoftRedSandstoneStairs",
+      "type": "block",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soft_red_sandstone_stairs"
+    },
+    {
+      "name": "SoftRedSandstoneSlab",
+      "type": "block",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soft_red_sandstone_slab"
     }
   ],
   "variable_elements": [],
@@ -3056,12 +3092,14 @@
       "block.enhancedvanilla.syringa": "Syringa",
       "block.enhancedvanilla.dark_oak_parquet": "Dark Oak Parquet",
       "block.enhancedvanilla.roughsandstonestairs": "Rough Sandstone Stairs",
+      "block.enhancedvanilla.soft_sandstone_stairs": "Soft Sandstone Stairs",
       "block.enhancedvanilla.roughredsanstoneslab": "Rough Red Sandstone Slab",
       "biome.enhancedvanilla.lavender_fields": "Lavender Fields",
       "block.enhancedvanilla.roughsandstone": "Rough Sandstone",
       "block.enhancedvanilla.red_amaranth": "Red Amaranth",
       "block.enhancedvanilla.dark_oak_parquet_stairs": "Dark Oak Parquet Stairs",
       "block.enhancedvanilla.chiseled_mud_bricks": "Cracked Mud Bricks",
+      "block.enhancedvanilla.soft_sandstone_slab": "Soft Sandstone",
       "block.enhancedvanilla.helianthus": "Helianthus",
       "block.enhancedvanilla.potted_lavender": "Potted Lavender",
       "block.enhancedvanilla.oak_parquet_slab": "Oak Parquet Slab",
@@ -3082,7 +3120,9 @@
       "block.enhancedvanilla.spruce_parquet_stairs": "Spruce Parquet Stairs",
       "block.enhancedvanilla.birch_parquet": "Birch Parquet",
       "block.enhancedvanilla.lava_cauldron_level_3": "Cauldron",
+      "block.enhancedvanilla.soft_red_sandstone_slab": "Soft Red Sandstone Slab",
       "block.enhancedvanilla.birch_parquet_stairs": "Birch Parquet Stairs",
+      "block.enhancedvanilla.soft_red_sandstone_stairs": "Soft Red Sandstone Stairs",
       "block.enhancedvanilla.yellow_amaranth": "Yellow Amaranth",
       "block.enhancedvanilla.mud_brick_wall": "Mud Brick Wall",
       "block.enhancedvanilla.oak_parquet_stairs": "Oak Parquet Stairs",
@@ -3146,5 +3186,5 @@
     "modElementsPackage": "com.karogath.enhancedvanilla",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000318613
+  "mcreatorVersion": 202000320316
 }

@@ -50,7 +50,7 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.15.2-31.1.63'
+    minecraft 'net.minecraftforge:forge:1.15.2-31.1.87'
 }
 
 apply from: 'mcreator.gradle'

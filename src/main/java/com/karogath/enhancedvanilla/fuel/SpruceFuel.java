@@ -8,11 +8,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.item.ItemStack;
 
 import com.karogath.enhancedvanilla.block.SpruceTanBarkBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class SpruceFuel extends EnhancedVanillaElements.ModElement {
-	public SpruceFuel(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class SpruceFuel extends EnhancedvanillaModElements.ModElement {
+	public SpruceFuel(EnhancedvanillaModElements instance) {
 		super(instance, 190);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

@@ -44,13 +44,13 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class PaeoniaBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class PaeoniaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:paeonia")
 	public static final Block block = null;
-	public PaeoniaBlock(EnhancedVanillaElements instance) {
+	public PaeoniaBlock(EnhancedvanillaModElements instance) {
 		super(instance, 63);
 	}
 

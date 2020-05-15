@@ -8,13 +8,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class GlowstoneShardItem extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class GlowstoneShardItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:glowstoneshard")
 	public static final Item block = null;
-	public GlowstoneShardItem(EnhancedVanillaElements instance) {
+	public GlowstoneShardItem(EnhancedvanillaModElements instance) {
 		super(instance, 55);
 	}
 

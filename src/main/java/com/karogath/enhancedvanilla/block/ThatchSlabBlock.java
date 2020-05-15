@@ -18,13 +18,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class ThatchSlabBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class ThatchSlabBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:thatch_slab")
 	public static final Block block = null;
-	public ThatchSlabBlock(EnhancedVanillaElements instance) {
+	public ThatchSlabBlock(EnhancedvanillaModElements instance) {
 		super(instance, 54);
 	}
 

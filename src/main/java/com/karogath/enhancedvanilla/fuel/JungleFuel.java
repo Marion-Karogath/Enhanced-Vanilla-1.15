@@ -8,11 +8,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.item.ItemStack;
 
 import com.karogath.enhancedvanilla.block.JungleTanbarkBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class JungleFuel extends EnhancedVanillaElements.ModElement {
-	public JungleFuel(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class JungleFuel extends EnhancedvanillaModElements.ModElement {
+	public JungleFuel(EnhancedvanillaModElements instance) {
 		super(instance, 194);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

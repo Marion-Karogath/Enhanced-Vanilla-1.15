@@ -8,11 +8,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.item.ItemStack;
 
 import com.karogath.enhancedvanilla.block.AcaciaTanbarkBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class AcaciaFuel extends EnhancedVanillaElements.ModElement {
-	public AcaciaFuel(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class AcaciaFuel extends EnhancedvanillaModElements.ModElement {
+	public AcaciaFuel(EnhancedvanillaModElements instance) {
 		super(instance, 195);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

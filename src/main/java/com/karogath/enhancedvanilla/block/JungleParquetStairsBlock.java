@@ -18,13 +18,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class JungleParquetStairsBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class JungleParquetStairsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:jungle_parquet_stairs")
 	public static final Block block = null;
-	public JungleParquetStairsBlock(EnhancedVanillaElements instance) {
+	public JungleParquetStairsBlock(EnhancedvanillaModElements instance) {
 		super(instance, 40);
 	}
 

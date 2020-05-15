@@ -10,11 +10,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import com.karogath.enhancedvanilla.block.SyringaBlock;
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class RightClickedSyringaProcedure extends EnhancedVanillaElements.ModElement {
-	public RightClickedSyringaProcedure(EnhancedVanillaElements instance) {
+@EnhancedvanillaModElements.ModElement.Tag
+public class RightClickedSyringaProcedure extends EnhancedvanillaModElements.ModElement {
+	public RightClickedSyringaProcedure(EnhancedvanillaModElements instance) {
 		super(instance, 226);
 	}
 

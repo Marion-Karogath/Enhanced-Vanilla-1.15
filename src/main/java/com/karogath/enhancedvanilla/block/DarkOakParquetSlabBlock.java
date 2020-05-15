@@ -19,13 +19,13 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
-import com.karogath.enhancedvanilla.EnhancedVanillaElements;
+import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
-@EnhancedVanillaElements.ModElement.Tag
-public class DarkOakParquetSlabBlock extends EnhancedVanillaElements.ModElement {
+@EnhancedvanillaModElements.ModElement.Tag
+public class DarkOakParquetSlabBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:dark_oak_parquet_slab")
 	public static final Block block = null;
-	public DarkOakParquetSlabBlock(EnhancedVanillaElements instance) {
+	public DarkOakParquetSlabBlock(EnhancedvanillaModElements instance) {
 		super(instance, 45);
 	}
 
