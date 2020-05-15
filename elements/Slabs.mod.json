@@ -43,6 +43,12 @@
       },
       {
         "value": "CUSTOM:CharredNetherBrickSlab"
+      },
+      {
+        "value": "CUSTOM:SoftRedSandstoneSlab"
+      },
+      {
+        "value": "CUSTOM:SoftSandstoneSlab"
       }
     ],
     "functions": [],

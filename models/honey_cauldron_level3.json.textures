@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "cauldron_side",
+        "top": "cauldron_top",
+        "4": "honey_block_top",
+        "bottom": "cauldron_bottom",
+        "inside": "cauldron_inner"
+      },
+      "name": "default"
+    }
+  }
+}

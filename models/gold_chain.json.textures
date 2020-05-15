@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gold_chains"
+      },
+      "name": "default"
+    }
+  }
+}

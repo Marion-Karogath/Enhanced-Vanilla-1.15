@@ -39,6 +39,12 @@
       },
       {
         "value": "CUSTOM:CharredNetherBrickSlab"
+      },
+      {
+        "value": "CUSTOM:SoftSandstoneSlab"
+      },
+      {
+        "value": "CUSTOM:SoftRedSandstoneSlab"
       }
     ],
     "blocks": [],

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "enhancedvanilla:blocks/gold_bars",
+    "pane": "enhancedvanilla:blocks/gold_bars"
+  }
+}

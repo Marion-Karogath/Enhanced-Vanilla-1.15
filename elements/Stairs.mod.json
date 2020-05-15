@@ -43,6 +43,12 @@
       },
       {
         "value": "CUSTOM:CharredNetherBrickStairs"
+      },
+      {
+        "value": "CUSTOM:SoftRedSandstoneStairs"
+      },
+      {
+        "value": "CUSTOM:SoftSandstoneStairs"
       }
     ],
     "functions": [],
