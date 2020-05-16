@@ -30,11 +30,11 @@ import java.util.Collections;
 import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 
 @EnhancedvanillaModElements.ModElement.Tag
-public class HoneyCauldronLevel1Block extends EnhancedvanillaModElements.ModElement {
-	@ObjectHolder("enhancedvanilla:honey_cauldron_level_1")
+public class HoneyCauldronLevel2Block extends EnhancedvanillaModElements.ModElement {
+	@ObjectHolder("enhancedvanilla:honey_cauldron_level_2")
 	public static final Block block = null;
-	public HoneyCauldronLevel1Block(EnhancedvanillaModElements instance) {
-		super(instance, 290);
+	public HoneyCauldronLevel2Block(EnhancedvanillaModElements instance) {
+		super(instance, 291);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class HoneyCauldronLevel1Block extends EnhancedvanillaModElements.ModElem
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 2f).lightValue(15).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).notSolid());
-			setRegistryName("honey_cauldron_level_1");
+			setRegistryName("honey_cauldron_level_2");
 		}
 
 		@Override

@@ -2,51 +2,51 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "honey_block_top",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "cauldron_side",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "honey_cauldron_level1:default",
-    "rotationMode": 0,
-    "hasTransparency": true,
+    "texture": "melon_top",
+    "textureTop": "melon_top",
+    "textureLeft": "melon_side",
+    "textureFront": "melon_lantern",
+    "textureRight": "melon_side",
+    "textureBack": "melon_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Cauldron",
+    "name": "Melon Lantern",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 2.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "Items.CAULDRON"
+      "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GOURD"
     },
-    "tickRate": 1,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "Items.CAULDRON"
+      "value": "CUSTOM:MelonLantern"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -57,18 +57,18 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "luminance": 1.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "LAVA"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.1,
-    "particleAmount": 1,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -82,9 +82,9 @@
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 256
   }
 }

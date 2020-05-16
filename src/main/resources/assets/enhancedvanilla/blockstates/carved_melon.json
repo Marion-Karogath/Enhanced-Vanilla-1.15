@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/carved_melon"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/carved_melon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/carved_melon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/carved_melon",
+      "y": 270
+    }
+  }
+}

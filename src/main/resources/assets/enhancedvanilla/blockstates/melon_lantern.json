@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/melon_lantern"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/melon_lantern",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/melon_lantern",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/melon_lantern",
+      "y": 270
+    }
+  }
+}

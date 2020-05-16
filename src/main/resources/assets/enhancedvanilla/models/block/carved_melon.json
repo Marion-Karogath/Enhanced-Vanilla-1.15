@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enhancedvanilla:blocks/melon_top",
+    "up": "enhancedvanilla:blocks/melon_top",
+    "north": "enhancedvanilla:blocks/carved_melon",
+    "east": "enhancedvanilla:blocks/melon_side",
+    "south": "enhancedvanilla:blocks/melon_side",
+    "west": "enhancedvanilla:blocks/melon_side",
+    "particle": "enhancedvanilla:blocks/melon_top"
+  }
+}
