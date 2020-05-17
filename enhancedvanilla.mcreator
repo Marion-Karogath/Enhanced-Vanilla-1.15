@@ -3174,6 +3174,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "melon_lantern"
+    },
+    {
+      "name": "TEMPCrate",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate"
+    },
+    {
+      "name": "TEMPCrateGUI",
+      "type": "gui",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate_gui"
+    },
+    {
+      "name": "TEMPCrateLootTable",
+      "type": "loottable",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate_loot_table"
+    },
+    {
+      "name": "TEMPCrateBlockAdded",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3240,6 +3296,7 @@
       "block.enhancedvanilla.charred_nether_brick_stairs": "Charred Nether Brick Stairs",
       "block.enhancedvanilla.syringa": "Syringa",
       "block.enhancedvanilla.roughredsanstoneslab": "Rough Red Sandstone Slab",
+      "block.enhancedvanilla.temp_crate": "TEMP Crate",
       "block.enhancedvanilla.roughsandstone": "Rough Sandstone",
       "block.enhancedvanilla.melon_lantern": "Melon Lantern",
       "block.enhancedvanilla.soft_sandstone_slab": "Soft Sandstone",
