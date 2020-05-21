@@ -9,6 +9,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.IPlacementConfig;
 import net.minecraft.world.gen.feature.template.Template;
 import net.minecraft.world.gen.feature.template.PlacementSettings;
+import net.minecraft.world.gen.feature.template.BlockIgnoreStructureProcessor;
 import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
@@ -33,7 +34,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class PillagerArcherTowerStructure extends EnhancedvanillaModElements.ModElement {
 	public PillagerArcherTowerStructure(EnhancedvanillaModElements instance) {
-		super(instance, 233);
+		super(instance, 240);
 	}
 
 	@Override
@@ -69,8 +70,10 @@ public class PillagerArcherTowerStructure extends EnhancedvanillaModElements.Mod
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
 						BlockPos spawnTo = new BlockPos(i, j + 0, k);
-						template.addBlocksToWorldChunk(iworld, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random)
-								.setMirror(mirror).setChunk((ChunkPos) null).setIgnoreEntities(false));
+						template.addBlocksToWorldChunk(iworld, spawnTo,
+								new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+										.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk((ChunkPos) null)
+										.setIgnoreEntities(false));
 					}
 				}
 				return true;

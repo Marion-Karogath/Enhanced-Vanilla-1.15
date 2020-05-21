@@ -51,7 +51,7 @@ public class HelianthusBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:helianthus")
 	public static final Block block = null;
 	public HelianthusBlock(EnhancedvanillaModElements instance) {
-		super(instance, 60);
+		super(instance, 69);
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class HelianthusBlock extends EnhancedvanillaModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::func_227300_a_) {
+		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::deserialize) {
 			@Override
 			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
 				return block.getDefaultState();

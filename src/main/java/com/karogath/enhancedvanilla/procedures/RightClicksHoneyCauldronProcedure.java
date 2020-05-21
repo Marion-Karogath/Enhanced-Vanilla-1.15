@@ -22,7 +22,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class RightClicksHoneyCauldronProcedure extends EnhancedvanillaModElements.ModElement {
 	public RightClicksHoneyCauldronProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 293);
+		super(instance, 287);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

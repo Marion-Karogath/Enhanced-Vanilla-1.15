@@ -24,7 +24,7 @@ public class SettsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:setts")
 	public static final Block block = null;
 	public SettsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 	}
 
 	@Override

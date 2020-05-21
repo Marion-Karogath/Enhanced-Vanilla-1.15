@@ -39,7 +39,7 @@ public class SettWallBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:sett_wall")
 	public static final Block block = null;
 	public SettWallBlock(EnhancedvanillaModElements instance) {
-		super(instance, 71);
+		super(instance, 80);
 	}
 
 	@Override

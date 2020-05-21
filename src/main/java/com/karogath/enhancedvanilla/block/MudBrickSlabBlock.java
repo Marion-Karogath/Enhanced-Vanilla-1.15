@@ -25,7 +25,7 @@ public class MudBrickSlabBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mud_brick_slab")
 	public static final Block block = null;
 	public MudBrickSlabBlock(EnhancedvanillaModElements instance) {
-		super(instance, 10);
+		super(instance, 12);
 	}
 
 	@Override

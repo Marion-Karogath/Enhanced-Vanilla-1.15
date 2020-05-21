@@ -1,0 +1,9 @@
+{
+  "parent": "enhancedvanilla:custom/wild_carrots",
+  "textures": {
+    "all": "enhancedvanilla:blocks/wild_carrots",
+    "particle": "enhancedvanilla:blocks/wild_carrots",
+    "0": "enhancedvanilla:blocks/wild_carrots",
+    "missing": "enhancedvanilla:blocks/"
+  }
+}

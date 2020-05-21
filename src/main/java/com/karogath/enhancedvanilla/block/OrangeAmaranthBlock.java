@@ -51,7 +51,7 @@ public class OrangeAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:orange_amaranth")
 	public static final Block block = null;
 	public OrangeAmaranthBlock(EnhancedvanillaModElements instance) {
-		super(instance, 66);
+		super(instance, 75);
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class OrangeAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::func_227300_a_) {
+		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::deserialize) {
 			@Override
 			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
 				return block.getDefaultState();

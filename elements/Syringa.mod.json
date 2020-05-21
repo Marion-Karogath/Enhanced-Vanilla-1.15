@@ -9,6 +9,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "name": "Syringa",
+    "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
     },

@@ -9,6 +9,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "name": "Paeonia",
+    "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
     },

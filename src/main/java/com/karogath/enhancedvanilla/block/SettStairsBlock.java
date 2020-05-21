@@ -25,7 +25,7 @@ public class SettStairsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:sett_stairs")
 	public static final Block block = null;
 	public SettStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 14);
+		super(instance, 16);
 	}
 
 	@Override

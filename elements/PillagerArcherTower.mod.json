@@ -18,6 +18,7 @@
         "value": "Blocks.GRASS"
       }
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

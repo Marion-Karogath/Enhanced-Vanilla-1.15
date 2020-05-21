@@ -25,7 +25,7 @@ public class JungleTanbarkBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:jungle_tanbark")
 	public static final Block block = null;
 	public JungleTanbarkBlock(EnhancedvanillaModElements instance) {
-		super(instance, 49);
+		super(instance, 55);
 	}
 
 	@Override
