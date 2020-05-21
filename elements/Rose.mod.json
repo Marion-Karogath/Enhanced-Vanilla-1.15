@@ -9,6 +9,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "name": "Rose",
+    "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
     },

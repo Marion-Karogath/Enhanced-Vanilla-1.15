@@ -6,6 +6,7 @@
     "texture": "death_cap_mushroom",
     "customModelName": "Normal",
     "name": "Death Cap Mushroom",
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },

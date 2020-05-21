@@ -67,7 +67,7 @@ public class YellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		Feature<BlockClusterFeatureConfig> feature = new Feature<BlockClusterFeatureConfig>(BlockClusterFeatureConfig::func_227300_a_) {
+		Feature<BlockClusterFeatureConfig> feature = new Feature<BlockClusterFeatureConfig>(BlockClusterFeatureConfig::deserialize) {
 			@Override
 			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 				DimensionType dimensionType = world.getDimension().getType();

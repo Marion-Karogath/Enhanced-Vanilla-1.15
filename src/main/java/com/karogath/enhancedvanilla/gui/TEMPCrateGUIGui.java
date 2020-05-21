@@ -110,19 +110,19 @@ public class TEMPCrateGUIGui extends EnhancedvanillaModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 30) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 30) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 30) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 30) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 62, 30) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 30) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 80, 30) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 79, 30) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 98, 30) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 97, 30) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 116, 30) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 115, 30) {
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 134, 30) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 133, 30) {
 			}));
 			int si;
 			int sj;

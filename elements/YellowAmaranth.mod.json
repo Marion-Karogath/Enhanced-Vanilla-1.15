@@ -9,6 +9,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "name": "Yellow Amaranth",
+    "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
     },
