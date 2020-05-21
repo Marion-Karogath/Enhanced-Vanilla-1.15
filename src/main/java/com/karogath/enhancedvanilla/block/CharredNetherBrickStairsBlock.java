@@ -25,7 +25,7 @@ public class CharredNetherBrickStairsBlock extends EnhancedvanillaModElements.Mo
 	@ObjectHolder("enhancedvanilla:charred_nether_brick_stairs")
 	public static final Block block = null;
 	public CharredNetherBrickStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 3);
+		super(instance, 5);
 	}
 
 	@Override

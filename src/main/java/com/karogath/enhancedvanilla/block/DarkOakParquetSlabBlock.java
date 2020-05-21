@@ -26,7 +26,7 @@ public class DarkOakParquetSlabBlock extends EnhancedvanillaModElements.ModEleme
 	@ObjectHolder("enhancedvanilla:dark_oak_parquet_slab")
 	public static final Block block = null;
 	public DarkOakParquetSlabBlock(EnhancedvanillaModElements instance) {
-		super(instance, 45);
+		super(instance, 51);
 	}
 
 	@Override

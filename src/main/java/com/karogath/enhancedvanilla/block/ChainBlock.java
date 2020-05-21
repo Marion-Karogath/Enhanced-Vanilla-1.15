@@ -36,7 +36,7 @@ public class ChainBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:chain")
 	public static final Block block = null;
 	public ChainBlock(EnhancedvanillaModElements instance) {
-		super(instance, 288);
+		super(instance, 67);
 	}
 
 	@Override

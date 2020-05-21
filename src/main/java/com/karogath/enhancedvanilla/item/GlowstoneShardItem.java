@@ -15,7 +15,7 @@ public class GlowstoneShardItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:glowstoneshard")
 	public static final Item block = null;
 	public GlowstoneShardItem(EnhancedvanillaModElements instance) {
-		super(instance, 55);
+		super(instance, 61);
 	}
 
 	@Override

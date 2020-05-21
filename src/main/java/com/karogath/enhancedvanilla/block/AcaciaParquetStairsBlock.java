@@ -25,7 +25,7 @@ public class AcaciaParquetStairsBlock extends EnhancedvanillaModElements.ModElem
 	@ObjectHolder("enhancedvanilla:acacia_parquet_stairs")
 	public static final Block block = null;
 	public AcaciaParquetStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 42);
+		super(instance, 48);
 	}
 
 	@Override

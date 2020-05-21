@@ -34,7 +34,7 @@ public class RoughRedSandstoneStairsBlock extends EnhancedvanillaModElements.Mod
 	@ObjectHolder("enhancedvanilla:roughredsandstonestairs")
 	public static final Block block = null;
 	public RoughRedSandstoneStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 25);
+		super(instance, 27);
 	}
 
 	@Override

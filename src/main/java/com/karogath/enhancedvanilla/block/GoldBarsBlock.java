@@ -34,7 +34,7 @@ public class GoldBarsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:gold_bars")
 	public static final Block block = null;
 	public GoldBarsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 287);
+		super(instance, 66);
 	}
 
 	@Override

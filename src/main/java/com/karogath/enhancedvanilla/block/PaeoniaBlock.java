@@ -51,7 +51,7 @@ public class PaeoniaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:paeonia")
 	public static final Block block = null;
 	public PaeoniaBlock(EnhancedvanillaModElements instance) {
-		super(instance, 63);
+		super(instance, 72);
 	}
 
 	@Override

@@ -51,7 +51,7 @@ public class HelianthusBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:helianthus")
 	public static final Block block = null;
 	public HelianthusBlock(EnhancedvanillaModElements instance) {
-		super(instance, 60);
+		super(instance, 69);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class OakParquetBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:oak_parquet")
 	public static final Block block = null;
 	public OakParquetBlock(EnhancedvanillaModElements instance) {
-		super(instance, 28);
+		super(instance, 34);
 	}
 
 	@Override

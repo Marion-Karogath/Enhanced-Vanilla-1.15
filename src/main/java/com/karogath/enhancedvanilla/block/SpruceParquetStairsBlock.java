@@ -25,7 +25,7 @@ public class SpruceParquetStairsBlock extends EnhancedvanillaModElements.ModElem
 	@ObjectHolder("enhancedvanilla:spruce_parquet_stairs")
 	public static final Block block = null;
 	public SpruceParquetStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 36);
+		super(instance, 42);
 	}
 
 	@Override

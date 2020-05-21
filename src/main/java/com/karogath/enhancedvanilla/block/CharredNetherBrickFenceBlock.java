@@ -34,7 +34,7 @@ public class CharredNetherBrickFenceBlock extends EnhancedvanillaModElements.Mod
 	@ObjectHolder("enhancedvanilla:charred_nether_brick_fence")
 	public static final Block block = null;
 	public CharredNetherBrickFenceBlock(EnhancedvanillaModElements instance) {
-		super(instance, 68);
+		super(instance, 77);
 	}
 
 	@Override
