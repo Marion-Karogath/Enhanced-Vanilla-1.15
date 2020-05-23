@@ -51,7 +51,7 @@ public class LavenderBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:lavender")
 	public static final Block block = null;
 	public LavenderBlock(EnhancedvanillaModElements instance) {
-		super(instance, 64);
+		super(instance, 73);
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class LavenderBlock extends EnhancedvanillaModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::func_227300_a_) {
+		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::deserialize) {
 			@Override
 			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
 				return block.getDefaultState();

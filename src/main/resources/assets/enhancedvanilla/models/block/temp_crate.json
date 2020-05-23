@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enhancedvanilla:blocks/crate_side_temp",
+    "up": "enhancedvanilla:blocks/crate_top_temp",
+    "north": "enhancedvanilla:blocks/crate_side_temp",
+    "east": "enhancedvanilla:blocks/crate_side_temp",
+    "south": "enhancedvanilla:blocks/crate_side_temp",
+    "west": "enhancedvanilla:blocks/crate_side_temp",
+    "particle": "enhancedvanilla:blocks/crate_side_temp"
+  }
+}

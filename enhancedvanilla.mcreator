@@ -3089,15 +3089,6 @@
       "registry_name": "chain"
     },
     {
-      "name": "GoldChains",
-      "type": "block",
-      "sortid": 289,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gold_chains"
-    },
-    {
       "name": "HoneyCauldronLevel1",
       "type": "block",
       "sortid": 290,
@@ -3174,9 +3165,391 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "melon_lantern"
+    },
+    {
+      "name": "TEMPCrate",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate"
+    },
+    {
+      "name": "TEMPCrateGUI",
+      "type": "gui",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate_gui"
+    },
+    {
+      "name": "TEMPCrateLootTable",
+      "type": "loottable",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate_loot_table"
+    },
+    {
+      "name": "TEMPCrateBlockAdded",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_crate_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WildPotato",
+      "type": "plant",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wild_potato"
+    },
+    {
+      "name": "WildCarrot",
+      "type": "plant",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wild_carrot"
+    },
+    {
+      "name": "SeaBeets",
+      "type": "plant",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sea_beets"
+    },
+    {
+      "name": "N2",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "n_2"
+    },
+    {
+      "name": "N3",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "n_3"
+    },
+    {
+      "name": "KaleSeeds",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_seeds"
+    },
+    {
+      "name": "Kale",
+      "type": "food",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale"
+    },
+    {
+      "name": "KaleBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaleBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaleStage0",
+      "type": "block",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_0"
+    },
+    {
+      "name": "KaleStage1",
+      "type": "block",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_1"
+    },
+    {
+      "name": "KaleStage2",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_2"
+    },
+    {
+      "name": "KaleStage3",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_3"
+    },
+    {
+      "name": "KaleStage4",
+      "type": "block",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_4"
+    },
+    {
+      "name": "KaleStage4BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_4_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaleStage4BlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kale_stage_4_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpdateTick",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeedsRightClicked",
+      "type": "procedure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seeds_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhenGrassbroken",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "when_grassbroken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "cropsGrowthTimer",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -3201,8 +3574,8 @@
       "biome.enhancedvanilla.amaranth_fields": "Amaranth Fields",
       "block.enhancedvanilla.jungle_tanbark": "Jungle Tanbark",
       "block.enhancedvanilla.oak_tan_bark": "Oak Tanbark",
-      "block.enhancedvanilla.roughsandstoneslab": "Rough Sandstone Slab",
       "block.enhancedvanilla.birch_tan_bark": "Birch Tanbark",
+      "block.enhancedvanilla.roughsandstoneslab": "Rough Sandstone Slab",
       "block.enhancedvanilla.thatch_slab": "Thatch",
       "block.enhancedvanilla.mud": "Mud",
       "block.enhancedvanilla.carved_melon": "Carved Melon",
@@ -3217,16 +3590,22 @@
       "block.enhancedvanilla.rose": "Rose",
       "block.enhancedvanilla.orange_amaranth": "Orange Amaranth",
       "block.enhancedvanilla.acacia_parquet_stairs": "Acacia Parquet Stairs",
-      "block.enhancedvanilla.glowstoneore": "Glowstone Ore",
       "block.enhancedvanilla.charred_nether_brick_wall": "Charred Nether Brick Wall",
+      "block.enhancedvanilla.glowstoneore": "Glowstone Ore",
       "block.enhancedvanilla.chain": "Chain",
       "block.enhancedvanilla.cracked_setts": "Cracked Setts",
+      "block.enhancedvanilla.kale_stage_4": "Kale Stage 4",
+      "block.enhancedvanilla.kale_stage_3": "Kale Stage 3",
+      "block.enhancedvanilla.kale_stage_2": "Kale Stage 2",
+      "block.enhancedvanilla.kale_stage_1": "Kale Stage 1",
+      "block.enhancedvanilla.kale_stage_0": "Kale Stage 0",
+      "item.enhancedvanilla.kale_seeds": "Kale Seeds",
       "item.enhancedvanilla.dried_wheat": "Dried Wheat",
       "block.enhancedvanilla.acacia_parquet": "Acacia Parquet",
       "block.enhancedvanilla.potted_orange_amaranth": "Potted Orange Amaranth",
       "block.enhancedvanilla.thatch_stairs": "Thatch Stairs",
-      "block.enhancedvanilla.dark_oak_parquet_slab": "Dark Oak Parquet Slab",
       "block.enhancedvanilla.oak_parquet": "Oak Parquet",
+      "block.enhancedvanilla.dark_oak_parquet_slab": "Dark Oak Parquet Slab",
       "block.enhancedvanilla.mud_brick_stairs": "Mud Brick Stairs",
       "block.enhancedvanilla.paeonia": "Paeonia",
       "block.enhancedvanilla.jungle_parquet": "Jungle Parquet",
@@ -3240,6 +3619,7 @@
       "block.enhancedvanilla.charred_nether_brick_stairs": "Charred Nether Brick Stairs",
       "block.enhancedvanilla.syringa": "Syringa",
       "block.enhancedvanilla.roughredsanstoneslab": "Rough Red Sandstone Slab",
+      "item.enhancedvanilla.kale": "Kale",
       "block.enhancedvanilla.roughsandstone": "Rough Sandstone",
       "block.enhancedvanilla.melon_lantern": "Melon Lantern",
       "block.enhancedvanilla.soft_sandstone_slab": "Soft Sandstone",

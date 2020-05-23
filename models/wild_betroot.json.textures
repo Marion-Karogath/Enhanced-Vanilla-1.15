@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wild_beets",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

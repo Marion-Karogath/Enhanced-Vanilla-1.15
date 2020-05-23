@@ -11,7 +11,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class SyringaExplosionProcedure extends EnhancedvanillaModElements.ModElement {
 	public SyringaExplosionProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 227);
+		super(instance, 234);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -2,33 +2,33 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "gold_chains",
+    "texture": "kale_stage1",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "gold_chain:default",
+    "customModelName": "stage_1:default",
     "rotationMode": 0,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
-    "mx": 0.406,
-    "my": 0.0,
-    "mz": 0.406,
-    "Mx": 0.594,
-    "My": 1.0,
-    "Mz": 0.594,
-    "name": "Golden Chain",
+    "transparencyType": "TRANSLUCENT",
+    "mx": 0.0,
+    "my": 0.001,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 0.312,
+    "Mz": 1.0,
+    "name": "Kale Stage 1",
     "specialInfo": [],
-    "hardness": 5.0,
-    "resistance": 6.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "No creative tab entry"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -39,14 +39,14 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "PLANTS"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
-    "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "isReplaceable": true,
+    "colorOnMap": "FOLIAGE",
     "creativePickItem": {
-      "value": "CUSTOM:GoldChains"
+      "value": "CUSTOM:KaleSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -54,14 +54,14 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "PLANT"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -79,12 +79,21 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "onTickUpdate": {
+      "name": "UpdateTick"
+    },
+    "onDestroyedByPlayer": {
+      "name": "KaleBlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "KaleBlockDestroyedByExplosion"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 32,
-    "frequencyOnChunk": 32,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 64
   }
 }

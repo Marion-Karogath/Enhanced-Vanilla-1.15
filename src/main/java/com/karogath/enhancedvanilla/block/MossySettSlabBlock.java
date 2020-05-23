@@ -25,7 +25,7 @@ public class MossySettSlabBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mossy_sett_slab")
 	public static final Block block = null;
 	public MossySettSlabBlock(EnhancedvanillaModElements instance) {
-		super(instance, 17);
+		super(instance, 19);
 	}
 
 	@Override

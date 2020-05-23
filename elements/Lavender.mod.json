@@ -9,6 +9,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "name": "Lavender",
+    "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
     },

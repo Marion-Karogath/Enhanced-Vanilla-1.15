@@ -1,5 +1,5 @@
 {
-  "parent": "enhancedvanilla:block/gold_chains",
+  "parent": "enhancedvanilla:block/temp_crate",
   "display": {
     "thirdperson": {
       "rotation": [

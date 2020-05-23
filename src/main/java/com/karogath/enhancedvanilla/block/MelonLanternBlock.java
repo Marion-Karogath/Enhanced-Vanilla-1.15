@@ -35,7 +35,7 @@ public class MelonLanternBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:melon_lantern")
 	public static final Block block = null;
 	public MelonLanternBlock(EnhancedvanillaModElements instance) {
-		super(instance, 295);
+		super(instance, 2);
 	}
 
 	@Override

@@ -1,0 +1,9 @@
+{
+  "parent": "enhancedvanilla:custom/wild_potatoes",
+  "textures": {
+    "all": "enhancedvanilla:blocks/wild_potatos",
+    "particle": "enhancedvanilla:blocks/wild_potatos",
+    "0": "enhancedvanilla:blocks/wild_potatos",
+    "missing": "enhancedvanilla:blocks/"
+  }
+}

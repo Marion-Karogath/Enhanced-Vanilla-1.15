@@ -1,8 +1,0 @@
-{
-  "parent": "enhancedvanilla:custom/gold_chain",
-  "textures": {
-    "all": "enhancedvanilla:blocks/gold_chains",
-    "particle": "enhancedvanilla:blocks/gold_chains",
-    "0": "enhancedvanilla:blocks/gold_chains"
-  }
-}

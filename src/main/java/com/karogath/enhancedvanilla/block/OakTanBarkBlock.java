@@ -25,7 +25,7 @@ public class OakTanBarkBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:oak_tan_bark")
 	public static final Block block = null;
 	public OakTanBarkBlock(EnhancedvanillaModElements instance) {
-		super(instance, 46);
+		super(instance, 52);
 	}
 
 	@Override

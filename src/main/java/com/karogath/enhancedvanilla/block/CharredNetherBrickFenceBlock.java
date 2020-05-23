@@ -34,7 +34,7 @@ public class CharredNetherBrickFenceBlock extends EnhancedvanillaModElements.Mod
 	@ObjectHolder("enhancedvanilla:charred_nether_brick_fence")
 	public static final Block block = null;
 	public CharredNetherBrickFenceBlock(EnhancedvanillaModElements instance) {
-		super(instance, 68);
+		super(instance, 77);
 	}
 
 	@Override
@@ -56,7 +56,7 @@ public class CharredNetherBrickFenceBlock extends EnhancedvanillaModElements.Mod
 		}
 
 		@Override
-		public boolean func_220111_a(BlockState state, boolean checkattach, Direction face) {
+		public boolean canConnect(BlockState state, boolean checkattach, Direction face) {
 			boolean flag = state.getBlock() instanceof FenceBlock && state.getMaterial() == this.material;
 			boolean flag1 = state.getBlock() instanceof FenceGateBlock && FenceGateBlock.isParallel(state, face);
 			return !cannotAttach(state.getBlock()) && checkattach || flag || flag1;

@@ -1,0 +1,9 @@
+{
+  "parent": "enhancedvanilla:custom/wild_betroot",
+  "textures": {
+    "all": "enhancedvanilla:blocks/wild_beets",
+    "particle": "enhancedvanilla:blocks/wild_beets",
+    "0": "enhancedvanilla:blocks/wild_beets",
+    "missing": "enhancedvanilla:blocks/"
+  }
+}

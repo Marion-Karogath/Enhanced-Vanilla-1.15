@@ -24,7 +24,7 @@ public class ChiseledMudBricksBlock extends EnhancedvanillaModElements.ModElemen
 	@ObjectHolder("enhancedvanilla:chiseled_mud_bricks")
 	public static final Block block = null;
 	public ChiseledMudBricksBlock(EnhancedvanillaModElements instance) {
-		super(instance, 8);
+		super(instance, 10);
 	}
 
 	@Override

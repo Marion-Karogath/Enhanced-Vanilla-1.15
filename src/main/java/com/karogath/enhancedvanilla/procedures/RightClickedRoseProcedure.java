@@ -15,7 +15,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class RightClickedRoseProcedure extends EnhancedvanillaModElements.ModElement {
 	public RightClickedRoseProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 222);
+		super(instance, 229);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
