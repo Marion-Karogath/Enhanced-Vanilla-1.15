@@ -43,7 +43,7 @@ public class GlowstoneOreBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:glowstoneore")
 	public static final Block block = null;
 	public GlowstoneOreBlock(EnhancedvanillaModElements instance) {
-		super(instance, 3);
+		super(instance, 1);
 	}
 
 	@Override

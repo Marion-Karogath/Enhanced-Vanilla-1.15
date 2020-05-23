@@ -40,7 +40,7 @@ public class RedSandRippleBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:redsandripple")
 	public static final Block block = null;
 	public RedSandRippleBlock(EnhancedvanillaModElements instance) {
-		super(instance, 23);
+		super(instance, 21);
 	}
 
 	@Override

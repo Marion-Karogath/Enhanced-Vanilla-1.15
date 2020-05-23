@@ -34,7 +34,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class PillagerArcherTowerStructure extends EnhancedvanillaModElements.ModElement {
 	public PillagerArcherTowerStructure(EnhancedvanillaModElements instance) {
-		super(instance, 240);
+		super(instance, 233);
 	}
 
 	@Override

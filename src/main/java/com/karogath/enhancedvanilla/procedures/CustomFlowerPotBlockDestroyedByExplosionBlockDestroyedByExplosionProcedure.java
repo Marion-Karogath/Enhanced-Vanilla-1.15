@@ -11,7 +11,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure extends EnhancedvanillaModElements.ModElement {
 	public CustomFlowerPotBlockDestroyedByExplosionBlockDestroyedByExplosionProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 209);
+		super(instance, 202);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

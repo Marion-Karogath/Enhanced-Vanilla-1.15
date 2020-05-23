@@ -29,7 +29,7 @@ public class SoftRedSandstoneSlabBlock extends EnhancedvanillaModElements.ModEle
 	@ObjectHolder("enhancedvanilla:soft_red_sandstone_slab")
 	public static final Block block = null;
 	public SoftRedSandstoneSlabBlock(EnhancedvanillaModElements instance) {
-		super(instance, 33);
+		super(instance, 286);
 	}
 
 	@Override

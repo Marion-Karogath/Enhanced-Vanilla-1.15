@@ -11,7 +11,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class PaeoniaPlayerProcedure extends EnhancedvanillaModElements.ModElement {
 	public PaeoniaPlayerProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 227);
+		super(instance, 220);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

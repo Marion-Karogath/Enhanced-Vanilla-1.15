@@ -49,7 +49,7 @@ public class PottedPaeoniaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_paeonia")
 	public static final Block block = null;
 	public PottedPaeoniaBlock(EnhancedvanillaModElements instance) {
-		super(instance, 224);
+		super(instance, 217);
 	}
 
 	@Override

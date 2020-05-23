@@ -13,7 +13,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class OakFuel extends EnhancedvanillaModElements.ModElement {
 	public OakFuel(EnhancedvanillaModElements instance) {
-		super(instance, 196);
+		super(instance, 189);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

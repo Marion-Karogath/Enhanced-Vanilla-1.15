@@ -49,7 +49,7 @@ public class PottedOrangeAmaranthBlock extends EnhancedvanillaModElements.ModEle
 	@ObjectHolder("enhancedvanilla:potted_orange_amaranth")
 	public static final Block block = null;
 	public PottedOrangeAmaranthBlock(EnhancedvanillaModElements instance) {
-		super(instance, 216);
+		super(instance, 209);
 	}
 
 	@Override

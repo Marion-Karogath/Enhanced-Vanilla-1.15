@@ -24,7 +24,7 @@ public class CrackedSettsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:cracked_setts")
 	public static final Block block = null;
 	public CrackedSettsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 14);
+		super(instance, 12);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class CarvedMelonBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:carved_melon")
 	public static final Block block = null;
 	public CarvedMelonBlock(EnhancedvanillaModElements instance) {
-		super(instance, 1);
+		super(instance, 294);
 	}
 
 	@Override

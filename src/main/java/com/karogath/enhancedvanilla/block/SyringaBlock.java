@@ -51,7 +51,7 @@ public class SyringaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:syringa")
 	public static final Block block = null;
 	public SyringaBlock(EnhancedvanillaModElements instance) {
-		super(instance, 70);
+		super(instance, 61);
 	}
 
 	@Override
