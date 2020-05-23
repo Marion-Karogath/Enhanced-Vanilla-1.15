@@ -3170,7 +3170,7 @@
       "name": "TEMPCrate",
       "type": "block",
       "sortid": 296,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "temp_crate"
@@ -3235,7 +3235,7 @@
       "name": "WildCarrot",
       "type": "plant",
       "sortid": 288,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wild_carrot"
@@ -3244,7 +3244,7 @@
       "name": "SeaBeets",
       "type": "plant",
       "sortid": 290,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "sea_beets"
