@@ -17,6 +17,7 @@ import java.util.function.Supplier;
 public class EnhancedvanillaModVariables {
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "enhancedvanilla_worldvars";
+		public double cropsGrowthTimer = 0;
 		public WorldVariables() {
 			super(DATA_NAME);
 		}
@@ -27,10 +28,12 @@ public class EnhancedvanillaModVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
+			cropsGrowthTimer = nbt.getDouble("cropsGrowthTimer");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
+			nbt.putDouble("cropsGrowthTimer", cropsGrowthTimer);
 			return nbt;
 		}
 

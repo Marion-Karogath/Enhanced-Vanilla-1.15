@@ -1,0 +1,8 @@
+{
+  "parent": "enhancedvanilla:custom/stage_1",
+  "textures": {
+    "all": "enhancedvanilla:blocks/kale_stage1",
+    "particle": "enhancedvanilla:blocks/kale_stage1",
+    "crop": "enhancedvanilla:blocks/kale_stage1"
+  }
+}

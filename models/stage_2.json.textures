@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "crop": "kale_stage2"
+      },
+      "name": "default"
+    }
+  }
+}
