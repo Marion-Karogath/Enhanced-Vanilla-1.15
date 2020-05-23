@@ -33,7 +33,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class PlayerRightClicksLavenderPottedProcedure extends EnhancedvanillaModElements.ModElement {
 	public PlayerRightClicksLavenderPottedProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 211);
+		super(instance, 204);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

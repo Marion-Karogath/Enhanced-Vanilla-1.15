@@ -48,7 +48,7 @@ public class RoughRedSanstoneSlabBlock extends EnhancedvanillaModElements.ModEle
 	@ObjectHolder("enhancedvanilla:roughredsanstoneslab")
 	public static final Block block = null;
 	public RoughRedSanstoneSlabBlock(EnhancedvanillaModElements instance) {
-		super(instance, 29);
+		super(instance, 27);
 	}
 
 	@Override

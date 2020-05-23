@@ -15,7 +15,7 @@ public class CharredNetherBrickitemItem extends EnhancedvanillaModElements.ModEl
 	@ObjectHolder("enhancedvanilla:charred_nether_brickitem")
 	public static final Item block = null;
 	public CharredNetherBrickitemItem(EnhancedvanillaModElements instance) {
-		super(instance, 62);
+		super(instance, 56);
 	}
 
 	@Override

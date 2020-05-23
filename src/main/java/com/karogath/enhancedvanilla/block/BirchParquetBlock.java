@@ -24,7 +24,7 @@ public class BirchParquetBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:birch_parquet")
 	public static final Block block = null;
 	public BirchParquetBlock(EnhancedvanillaModElements instance) {
-		super(instance, 36);
+		super(instance, 30);
 	}
 
 	@Override

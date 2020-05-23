@@ -39,7 +39,7 @@ public class MossySettWallBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mossy_sett_wall")
 	public static final Block block = null;
 	public MossySettWallBlock(EnhancedvanillaModElements instance) {
-		super(instance, 81);
+		super(instance, 72);
 	}
 
 	@Override

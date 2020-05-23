@@ -40,7 +40,7 @@ public class MudBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mud")
 	public static final Block block = null;
 	public MudBlock(EnhancedvanillaModElements instance) {
-		super(instance, 7);
+		super(instance, 5);
 	}
 
 	@Override

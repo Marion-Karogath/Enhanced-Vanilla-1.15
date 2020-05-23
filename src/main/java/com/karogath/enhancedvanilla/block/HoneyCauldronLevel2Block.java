@@ -34,7 +34,7 @@ public class HoneyCauldronLevel2Block extends EnhancedvanillaModElements.ModElem
 	@ObjectHolder("enhancedvanilla:honey_cauldron_level_2")
 	public static final Block block = null;
 	public HoneyCauldronLevel2Block(EnhancedvanillaModElements instance) {
-		super(instance, 285);
+		super(instance, 291);
 	}
 
 	@Override

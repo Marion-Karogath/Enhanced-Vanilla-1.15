@@ -15,7 +15,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class RightClickedSyringaProcedure extends EnhancedvanillaModElements.ModElement {
 	public RightClickedSyringaProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 233);
+		super(instance, 226);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

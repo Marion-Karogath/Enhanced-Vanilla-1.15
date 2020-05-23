@@ -19,7 +19,7 @@ public class DeathCapMushroomItem extends EnhancedvanillaModElements.ModElement 
 	@ObjectHolder("enhancedvanilla:death_cap_mushroom")
 	public static final Item block = null;
 	public DeathCapMushroomItem(EnhancedvanillaModElements instance) {
-		super(instance, 82);
+		super(instance, 73);
 	}
 
 	@Override

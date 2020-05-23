@@ -25,7 +25,7 @@ public class ThatchSlabBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:thatch_slab")
 	public static final Block block = null;
 	public ThatchSlabBlock(EnhancedvanillaModElements instance) {
-		super(instance, 60);
+		super(instance, 54);
 	}
 
 	@Override

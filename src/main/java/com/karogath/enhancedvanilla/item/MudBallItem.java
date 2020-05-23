@@ -15,7 +15,7 @@ public class MudBallItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:mud_ball")
 	public static final Item block = null;
 	public MudBallItem(EnhancedvanillaModElements instance) {
-		super(instance, 64);
+		super(instance, 58);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class SandRippleBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:sandripple")
 	public static final Block block = null;
 	public SandRippleBlock(EnhancedvanillaModElements instance) {
-		super(instance, 20);
+		super(instance, 18);
 	}
 
 	@Override

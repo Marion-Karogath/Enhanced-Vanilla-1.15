@@ -11,7 +11,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class RosePlayerProcedure extends EnhancedvanillaModElements.ModElement {
 	public RosePlayerProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 231);
+		super(instance, 224);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
