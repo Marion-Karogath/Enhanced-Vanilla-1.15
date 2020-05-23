@@ -3170,7 +3170,7 @@
       "name": "TEMPCrate",
       "type": "block",
       "sortid": 296,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "temp_crate"
@@ -3235,7 +3235,7 @@
       "name": "WildCarrot",
       "type": "plant",
       "sortid": 288,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "wild_carrot"
@@ -3244,7 +3244,7 @@
       "name": "SeaBeets",
       "type": "plant",
       "sortid": 290,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "sea_beets"
@@ -3540,6 +3540,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "ApplePie",
+      "type": "food",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_pie"
+    },
+    {
+      "name": "BeetrootPie",
+      "type": "food",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beetroot_pie"
+    },
+    {
+      "name": "BerryPie",
+      "type": "food",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "berry_pie"
+    },
+    {
+      "name": "CarrotPie",
+      "type": "food",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carrot_pie"
+    },
+    {
+      "name": "ChorusPie",
+      "type": "food",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chorus_pie"
     }
   ],
   "variable_elements": [
@@ -3569,6 +3614,7 @@
       "block.enhancedvanilla.chiseled_mud_bricks": "Cracked Mud Bricks",
       "block.enhancedvanilla.dark_oak_parquet_stairs": "Dark Oak Parquet Stairs",
       "block.enhancedvanilla.helianthus": "Helianthus",
+      "item.enhancedvanilla.beetroot_pie": "Beetroot Pie",
       "block.enhancedvanilla.charred_nether_brick_slab": "Charred Nether Brick Slab",
       "block.enhancedvanilla.acacia_parquet_slab": "Acacia Parquet Slab",
       "biome.enhancedvanilla.amaranth_fields": "Amaranth Fields",
@@ -3615,6 +3661,7 @@
       "block.enhancedvanilla.mossy_sett_stairs": "Mossy Sett Stairs",
       "block.enhancedvanilla.roughredsandstone": "Rough Red Sandstone",
       "block.enhancedvanilla.spruce_parquet_slab": "Spruce Parquet Slab",
+      "item.enhancedvanilla.apple_pie": "Apple Pie",
       "block.enhancedvanilla.gold_chains": "Golden Chain",
       "block.enhancedvanilla.dark_oak_tanbark": "Dark Oak Tanbark",
       "block.enhancedvanilla.charred_nether_brick_stairs": "Charred Nether Brick Stairs",
@@ -3627,10 +3674,13 @@
       "block.enhancedvanilla.soft_sandstone_slab": "Soft Sandstone",
       "block.enhancedvanilla.potted_lavender": "Potted Lavender",
       "block.enhancedvanilla.oak_parquet_slab": "Oak Parquet Slab",
+      "item.enhancedvanilla.berry_pie": "Berry Pie",
       "block.enhancedvanilla.potted_rose": "Potted Rose",
       "block.enhancedvanilla.cracked_mud_bricks": "Cracked Mud Bricks",
+      "item.enhancedvanilla.carrot_pie": "Carrot Pie",
       "block.enhancedvanilla.potted_syringa": "Potted Syringa",
       "block.enhancedvanilla.lavender": "Lavender",
+      "item.enhancedvanilla.chorus_pie": "Chorus Pie",
       "block.enhancedvanilla.spruce_parquet_stairs": "Spruce Parquet Stairs",
       "block.enhancedvanilla.birch_parquet": "Birch Parquet",
       "block.enhancedvanilla.lava_cauldron_level_3": "Cauldron",
@@ -3683,5 +3733,5 @@
     "modElementsPackage": "com.karogath.enhancedvanilla",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000320316
+  "mcreatorVersion": 202000321322
 }
