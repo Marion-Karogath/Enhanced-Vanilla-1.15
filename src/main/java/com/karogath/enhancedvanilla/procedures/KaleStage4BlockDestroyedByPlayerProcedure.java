@@ -16,7 +16,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class KaleStage4BlockDestroyedByPlayerProcedure extends EnhancedvanillaModElements.ModElement {
 	public KaleStage4BlockDestroyedByPlayerProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 301);
+		super(instance, 311);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

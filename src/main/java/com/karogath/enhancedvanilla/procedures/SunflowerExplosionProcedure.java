@@ -11,7 +11,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class SunflowerExplosionProcedure extends EnhancedvanillaModElements.ModElement {
 	public SunflowerExplosionProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 231);
+		super(instance, 247);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

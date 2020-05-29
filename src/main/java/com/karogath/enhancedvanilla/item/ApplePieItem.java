@@ -16,7 +16,7 @@ public class ApplePieItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:apple_pie")
 	public static final Item block = null;
 	public ApplePieItem(EnhancedvanillaModElements instance) {
-		super(instance, 306);
+		super(instance, 87);
 	}
 
 	@Override

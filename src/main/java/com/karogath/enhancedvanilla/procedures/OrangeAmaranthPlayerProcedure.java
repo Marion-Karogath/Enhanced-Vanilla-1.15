@@ -11,7 +11,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class OrangeAmaranthPlayerProcedure extends EnhancedvanillaModElements.ModElement {
 	public OrangeAmaranthPlayerProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 212);
+		super(instance, 228);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

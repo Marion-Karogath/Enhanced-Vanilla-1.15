@@ -12,7 +12,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class KaleStage4BlockDestroyedByExplosionProcedure extends EnhancedvanillaModElements.ModElement {
 	public KaleStage4BlockDestroyedByExplosionProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 302);
+		super(instance, 312);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

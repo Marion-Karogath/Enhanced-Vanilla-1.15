@@ -15,7 +15,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class RightClickedSunflowerProcedure extends EnhancedvanillaModElements.ModElement {
 	public RightClickedSunflowerProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 230);
+		super(instance, 246);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

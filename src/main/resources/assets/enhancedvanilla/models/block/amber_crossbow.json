@@ -1,0 +1,10 @@
+{
+  "parent": "enhancedvanilla:custom/amber_crossbow",
+  "textures": {
+    "all": "enhancedvanilla:blocks/amber_block",
+    "particle": "enhancedvanilla:blocks/amber_block",
+    "0": "enhancedvanilla:blocks/amber_block",
+    "1": "enhancedvanilla:blocks/crossbow_standby",
+    "missing": "enhancedvanilla:blocks/"
+  }
+}

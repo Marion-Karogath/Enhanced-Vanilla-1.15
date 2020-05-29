@@ -23,7 +23,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class TEMPCrateBlockAddedProcedure extends EnhancedvanillaModElements.ModElement {
 	public TEMPCrateBlockAddedProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 299);
+		super(instance, 300);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -1,0 +1,9 @@
+{
+  "parent": "enhancedvanilla:custom/sea_kale",
+  "textures": {
+    "all": "enhancedvanilla:blocks/sea_kale",
+    "particle": "enhancedvanilla:blocks/sea_kale",
+    "0": "enhancedvanilla:blocks/sea_kale",
+    "missing": "enhancedvanilla:blocks/"
+  }
+}

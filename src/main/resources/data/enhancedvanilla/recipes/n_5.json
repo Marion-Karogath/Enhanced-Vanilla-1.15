@@ -1,0 +1,19 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "enhancedvanilla:beetroot_pie",
+    "count": 1
+  }
+}

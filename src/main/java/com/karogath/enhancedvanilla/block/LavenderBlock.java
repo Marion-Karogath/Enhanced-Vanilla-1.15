@@ -51,7 +51,7 @@ public class LavenderBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:lavender")
 	public static final Block block = null;
 	public LavenderBlock(EnhancedvanillaModElements instance) {
-		super(instance, 64);
+		super(instance, 70);
 	}
 
 	@Override

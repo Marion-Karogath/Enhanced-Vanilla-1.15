@@ -16,7 +16,7 @@ public class BeetrootPieItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:beetroot_pie")
 	public static final Item block = null;
 	public BeetrootPieItem(EnhancedvanillaModElements instance) {
-		super(instance, 307);
+		super(instance, 88);
 	}
 
 	@Override

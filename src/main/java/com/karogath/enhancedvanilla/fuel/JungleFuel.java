@@ -13,7 +13,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class JungleFuel extends EnhancedvanillaModElements.ModElement {
 	public JungleFuel(EnhancedvanillaModElements instance) {
-		super(instance, 194);
+		super(instance, 210);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

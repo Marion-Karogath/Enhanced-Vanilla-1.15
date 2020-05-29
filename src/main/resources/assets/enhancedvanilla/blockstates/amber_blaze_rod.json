@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/amber_blaze_rod"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/amber_blaze_rod",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/amber_blaze_rod",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/amber_blaze_rod",
+      "y": 270
+    }
+  }
+}

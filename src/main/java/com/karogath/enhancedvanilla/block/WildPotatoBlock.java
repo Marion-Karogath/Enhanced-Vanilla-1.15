@@ -49,7 +49,7 @@ public class WildPotatoBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:wild_potato")
 	public static final Block block = null;
 	public WildPotatoBlock(EnhancedvanillaModElements instance) {
-		super(instance, 289);
+		super(instance, 82);
 	}
 
 	@Override

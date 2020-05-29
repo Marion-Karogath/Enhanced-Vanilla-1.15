@@ -47,7 +47,7 @@ public class KaleStage2Block extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:kale_stage_2")
 	public static final Block block = null;
 	public KaleStage2Block(EnhancedvanillaModElements instance) {
-		super(instance, 298);
+		super(instance, 308);
 	}
 
 	@Override

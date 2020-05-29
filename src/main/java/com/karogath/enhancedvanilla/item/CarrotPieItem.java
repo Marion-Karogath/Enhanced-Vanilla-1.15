@@ -16,7 +16,7 @@ public class CarrotPieItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:carrot_pie")
 	public static final Item block = null;
 	public CarrotPieItem(EnhancedvanillaModElements instance) {
-		super(instance, 309);
+		super(instance, 90);
 	}
 
 	@Override

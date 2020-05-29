@@ -16,7 +16,7 @@ public class ChorusPieItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:chorus_pie")
 	public static final Item block = null;
 	public ChorusPieItem(EnhancedvanillaModElements instance) {
-		super(instance, 310);
+		super(instance, 91);
 	}
 
 	@Override

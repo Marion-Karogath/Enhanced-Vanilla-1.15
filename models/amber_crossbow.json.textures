@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "amber_block",
+        "1": "crossbow_standby",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

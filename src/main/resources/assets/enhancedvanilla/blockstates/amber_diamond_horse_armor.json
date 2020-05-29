@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/amber_diamond_horse_armor"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/amber_diamond_horse_armor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/amber_diamond_horse_armor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/amber_diamond_horse_armor",
+      "y": 270
+    }
+  }
+}

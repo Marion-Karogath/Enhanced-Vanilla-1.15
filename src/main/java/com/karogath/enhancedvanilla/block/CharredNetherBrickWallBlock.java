@@ -39,7 +39,7 @@ public class CharredNetherBrickWallBlock extends EnhancedvanillaModElements.ModE
 	@ObjectHolder("enhancedvanilla:charred_nether_brick_wall")
 	public static final Block block = null;
 	public CharredNetherBrickWallBlock(EnhancedvanillaModElements instance) {
-		super(instance, 69);
+		super(instance, 75);
 	}
 
 	@Override

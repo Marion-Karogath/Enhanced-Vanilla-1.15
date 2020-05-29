@@ -25,7 +25,7 @@ public class DarkOakTanbarkBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:dark_oak_tanbark")
 	public static final Block block = null;
 	public DarkOakTanbarkBlock(EnhancedvanillaModElements instance) {
-		super(instance, 51);
+		super(instance, 55);
 	}
 
 	@Override

@@ -49,6 +49,12 @@
       },
       {
         "value": "CUSTOM:SoftSandstoneSlab"
+      },
+      {
+        "value": "CUSTOM:SoftRedSandstoneSlab"
+      },
+      {
+        "value": "CUSTOM:SoftSandstoneSlab"
       }
     ],
     "functions": [],

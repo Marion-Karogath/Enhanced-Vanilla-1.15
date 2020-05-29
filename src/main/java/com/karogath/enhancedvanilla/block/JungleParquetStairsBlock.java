@@ -25,7 +25,7 @@ public class JungleParquetStairsBlock extends EnhancedvanillaModElements.ModElem
 	@ObjectHolder("enhancedvanilla:jungle_parquet_stairs")
 	public static final Block block = null;
 	public JungleParquetStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 40);
+		super(instance, 44);
 	}
 
 	@Override

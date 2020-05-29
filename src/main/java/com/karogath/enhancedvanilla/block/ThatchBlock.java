@@ -23,7 +23,7 @@ public class ThatchBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:thatch")
 	public static final Block block = null;
 	public ThatchBlock(EnhancedvanillaModElements instance) {
-		super(instance, 52);
+		super(instance, 56);
 	}
 
 	@Override

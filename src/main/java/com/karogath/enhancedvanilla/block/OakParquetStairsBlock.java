@@ -25,7 +25,7 @@ public class OakParquetStairsBlock extends EnhancedvanillaModElements.ModElement
 	@ObjectHolder("enhancedvanilla:oak_parquet_stairs")
 	public static final Block block = null;
 	public OakParquetStairsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 34);
+		super(instance, 38);
 	}
 
 	@Override

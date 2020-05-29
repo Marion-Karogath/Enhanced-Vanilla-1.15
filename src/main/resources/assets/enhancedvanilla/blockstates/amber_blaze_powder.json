@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/amber_blaze_powder"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/amber_blaze_powder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/amber_blaze_powder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/amber_blaze_powder",
+      "y": 270
+    }
+  }
+}

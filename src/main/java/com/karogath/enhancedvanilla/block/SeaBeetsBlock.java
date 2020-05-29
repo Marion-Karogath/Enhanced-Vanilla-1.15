@@ -50,7 +50,7 @@ public class SeaBeetsBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:sea_beets")
 	public static final Block block = null;
 	public SeaBeetsBlock(EnhancedvanillaModElements instance) {
-		super(instance, 290);
+		super(instance, 83);
 	}
 
 	@Override

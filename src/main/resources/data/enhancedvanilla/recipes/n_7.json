@@ -1,0 +1,19 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "enhancedvanilla:carrot_pie",
+    "count": 1
+  }
+}

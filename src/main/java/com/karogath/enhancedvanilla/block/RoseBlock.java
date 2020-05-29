@@ -51,7 +51,7 @@ public class RoseBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:rose")
 	public static final Block block = null;
 	public RoseBlock(EnhancedvanillaModElements instance) {
-		super(instance, 62);
+		super(instance, 68);
 	}
 
 	@Override

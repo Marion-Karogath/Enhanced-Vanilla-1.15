@@ -1,0 +1,29 @@
+{
+  "group": "enhancedvanilla",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_helmet",
+    "count": 1
+  }
+}

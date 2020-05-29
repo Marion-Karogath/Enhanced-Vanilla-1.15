@@ -19,7 +19,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class SeedsRightClickedProcedure extends EnhancedvanillaModElements.ModElement {
 	public SeedsRightClickedProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 304);
+		super(instance, 314);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

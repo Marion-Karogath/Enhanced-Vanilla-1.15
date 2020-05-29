@@ -10,7 +10,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class DeathCapMushroomFoodEatenProcedure extends EnhancedvanillaModElements.ModElement {
 	public DeathCapMushroomFoodEatenProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 239);
+		super(instance, 255);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

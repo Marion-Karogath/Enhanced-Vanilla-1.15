@@ -13,7 +13,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class BirchFuel extends EnhancedvanillaModElements.ModElement {
 	public BirchFuel(EnhancedvanillaModElements instance) {
-		super(instance, 193);
+		super(instance, 209);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

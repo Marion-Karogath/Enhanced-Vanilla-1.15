@@ -49,7 +49,7 @@ public class PottedSunflowerBlock extends EnhancedvanillaModElements.ModElement 
 	@ObjectHolder("enhancedvanilla:potted_sunflower")
 	public static final Block block = null;
 	public PottedSunflowerBlock(EnhancedvanillaModElements instance) {
-		super(instance, 229);
+		super(instance, 245);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class AcaciaFuel extends EnhancedvanillaModElements.ModElement {
 	public AcaciaFuel(EnhancedvanillaModElements instance) {
-		super(instance, 195);
+		super(instance, 211);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

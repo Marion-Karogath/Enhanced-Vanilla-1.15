@@ -38,7 +38,7 @@ public class LavaCauldronLevel1Block extends EnhancedvanillaModElements.ModEleme
 	@ObjectHolder("enhancedvanilla:lava_cauldron_level_1")
 	public static final Block block = null;
 	public LavaCauldronLevel1Block(EnhancedvanillaModElements instance) {
-		super(instance, 278);
+		super(instance, 289);
 	}
 
 	@Override

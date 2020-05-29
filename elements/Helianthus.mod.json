@@ -40,7 +40,7 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "plains"
+        "value": "mutated_plains"
       }
     ]
   }

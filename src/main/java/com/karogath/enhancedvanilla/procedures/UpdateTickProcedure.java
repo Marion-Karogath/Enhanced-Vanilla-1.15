@@ -18,7 +18,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class UpdateTickProcedure extends EnhancedvanillaModElements.ModElement {
 	public UpdateTickProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 303);
+		super(instance, 313);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

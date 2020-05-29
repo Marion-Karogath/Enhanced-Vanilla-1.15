@@ -16,7 +16,7 @@ public class BerryPieItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:berry_pie")
 	public static final Item block = null;
 	public BerryPieItem(EnhancedvanillaModElements instance) {
-		super(instance, 308);
+		super(instance, 89);
 	}
 
 	@Override

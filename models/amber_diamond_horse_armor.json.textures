@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "amber_block",
+        "1": "diamond_horse_armor",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -15,7 +15,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class RightClickedPaeoniaProcedure extends EnhancedvanillaModElements.ModElement {
 	public RightClickedPaeoniaProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 218);
+		super(instance, 234);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -24,7 +24,7 @@ public class SpruceParquetBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:spruce_parquet")
 	public static final Block block = null;
 	public SpruceParquetBlock(EnhancedvanillaModElements instance) {
-		super(instance, 29);
+		super(instance, 33);
 	}
 
 	@Override

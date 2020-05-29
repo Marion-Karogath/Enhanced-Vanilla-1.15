@@ -49,7 +49,7 @@ public class WildCarrotBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:wild_carrot")
 	public static final Block block = null;
 	public WildCarrotBlock(EnhancedvanillaModElements instance) {
-		super(instance, 288);
+		super(instance, 81);
 	}
 
 	@Override

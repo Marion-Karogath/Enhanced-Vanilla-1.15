@@ -51,7 +51,7 @@ public class HelianthusBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:helianthus")
 	public static final Block block = null;
 	public HelianthusBlock(EnhancedvanillaModElements instance) {
-		super(instance, 60);
+		super(instance, 66);
 	}
 
 	@Override
@@ -87,7 +87,7 @@ public class HelianthusBlock extends EnhancedvanillaModElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("plains")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("sunflower_plains")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

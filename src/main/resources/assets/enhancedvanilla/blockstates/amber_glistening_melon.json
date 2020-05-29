@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/amber_glistening_melon"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/amber_glistening_melon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/amber_glistening_melon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/amber_glistening_melon",
+      "y": 270
+    }
+  }
+}

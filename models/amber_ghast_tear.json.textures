@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "amber_block",
+        "1": "ghast_tear"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "amber",
+	"textures": {
+		"0": "MinecraftWorkspaces/amber_block",
+		"1": "item/ghast_tear",
+		"particle": "MinecraftWorkspaces/amber_block"
+	},
+	"elements": [
+		{
+			"name": "item",
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "item",
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "amber",
+			"from": [0, 0, 0],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#0"},
+				"down": {"uv": [0, 8, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "amber",
+			"from": [0, 0, 8],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 8, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [31.25, -43.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"translation": [0, 0, -0.5]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhancedvanilla:block/amber_chorus_fruit"
+    },
+    "facing=east": {
+      "model": "enhancedvanilla:block/amber_chorus_fruit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enhancedvanilla:block/amber_chorus_fruit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhancedvanilla:block/amber_chorus_fruit",
+      "y": 270
+    }
+  }
+}

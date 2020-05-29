@@ -13,7 +13,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class SpruceFuel extends EnhancedvanillaModElements.ModElement {
 	public SpruceFuel(EnhancedvanillaModElements instance) {
-		super(instance, 190);
+		super(instance, 206);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

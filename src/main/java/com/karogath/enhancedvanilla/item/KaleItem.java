@@ -16,7 +16,7 @@ public class KaleItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:kale")
 	public static final Item block = null;
 	public KaleItem(EnhancedvanillaModElements instance) {
-		super(instance, 294);
+		super(instance, 86);
 	}
 
 	@Override

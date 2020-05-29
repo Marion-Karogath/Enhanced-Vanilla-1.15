@@ -18,7 +18,7 @@ import com.karogath.enhancedvanilla.EnhancedvanillaModElements;
 @EnhancedvanillaModElements.ModElement.Tag
 public class PlayerRightClicksProcedure extends EnhancedvanillaModElements.ModElement {
 	public PlayerRightClicksProcedure(EnhancedvanillaModElements instance) {
-		super(instance, 277);
+		super(instance, 288);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

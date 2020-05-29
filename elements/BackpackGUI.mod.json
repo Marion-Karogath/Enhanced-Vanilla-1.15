@@ -1,0 +1,376 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 264,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 264,
+          "y": 190
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "name": "Slot #3",
+          "x": 300,
+          "y": 115
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "name": "Slot #4",
+          "x": 301,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "name": "Slot #5",
+          "x": 301,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "name": "Slot #6",
+          "x": 336,
+          "y": 115
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "name": "Slot #7",
+          "x": 337,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "name": "Slot #8",
+          "x": 337,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "name": "Slot #9",
+          "x": 373,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "name": "Slot #10",
+          "x": 372,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 11,
+          "disableStackInteraction": false,
+          "name": "Slot #11",
+          "x": 373,
+          "y": 190
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 12,
+          "disableStackInteraction": false,
+          "name": "Slot #12",
+          "x": 409,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 13,
+          "disableStackInteraction": false,
+          "name": "Slot #13",
+          "x": 408,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 14,
+          "disableStackInteraction": false,
+          "name": "Slot #14",
+          "x": 408,
+          "y": 190
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 15,
+          "disableStackInteraction": false,
+          "name": "Slot #15",
+          "x": 444,
+          "y": 115
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 16,
+          "disableStackInteraction": false,
+          "name": "Slot #16",
+          "x": 445,
+          "y": 153
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 17,
+          "disableStackInteraction": false,
+          "name": "Slot #17",
+          "x": 445,
+          "y": 190
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 18,
+          "disableStackInteraction": false,
+          "name": "Slot #18",
+          "x": 481,
+          "y": 115
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 19,
+          "disableStackInteraction": false,
+          "name": "Slot #19",
+          "x": 480,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 20,
+          "disableStackInteraction": false,
+          "name": "Slot #20",
+          "x": 481,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 21,
+          "disableStackInteraction": false,
+          "name": "Slot #21",
+          "x": 517,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 22,
+          "disableStackInteraction": false,
+          "name": "Slot #22",
+          "x": 516,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 23,
+          "disableStackInteraction": false,
+          "name": "Slot #23",
+          "x": 517,
+          "y": 190
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 24,
+          "disableStackInteraction": false,
+          "name": "Slot #24",
+          "x": 553,
+          "y": 115
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 25,
+          "disableStackInteraction": false,
+          "name": "Slot #25",
+          "x": 552,
+          "y": 153
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 26,
+          "disableStackInteraction": false,
+          "name": "Slot #26",
+          "x": 552,
+          "y": 191
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Backpack",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Backpack",
+          "x": 264,
+          "y": 87
+        }
+      }
+    ]
+  }
+}

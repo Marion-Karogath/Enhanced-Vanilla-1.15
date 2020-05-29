@@ -49,7 +49,7 @@ public class PottedSyringaBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:potted_syringa")
 	public static final Block block = null;
 	public PottedSyringaBlock(EnhancedvanillaModElements instance) {
-		super(instance, 225);
+		super(instance, 241);
 	}
 
 	@Override

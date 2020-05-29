@@ -15,7 +15,7 @@ public class DriedWheatItem extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:dried_wheat")
 	public static final Item block = null;
 	public DriedWheatItem(EnhancedvanillaModElements instance) {
-		super(instance, 57);
+		super(instance, 63);
 	}
 
 	@Override

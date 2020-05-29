@@ -48,6 +48,12 @@
       },
       {
         "value": "CUSTOM:SoftRedSandstoneStairs"
+      },
+      {
+        "value": "CUSTOM:SoftSandstoneStairs"
+      },
+      {
+        "value": "CUSTOM:SoftRedSandstoneStairs"
       }
     ],
     "blocks": [],

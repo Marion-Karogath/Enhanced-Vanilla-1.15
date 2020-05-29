@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "amber_block"
+      },
+      "name": "default"
+    }
+  }
+}

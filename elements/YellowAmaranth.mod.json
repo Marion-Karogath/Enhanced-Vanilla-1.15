@@ -5,7 +5,7 @@
     "renderType": 12,
     "texture": "yellow_amaranth",
     "customModelName": "Cross model",
-    "plantType": "growapable",
+    "plantType": "normal",
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "name": "Yellow Amaranth",

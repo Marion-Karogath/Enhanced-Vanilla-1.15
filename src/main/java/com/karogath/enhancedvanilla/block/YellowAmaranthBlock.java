@@ -10,10 +10,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.FrequencyConfig;
-import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.FlowersFeature;
+import net.minecraft.world.gen.feature.DefaultFlowersFeature;
 import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
@@ -26,6 +26,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -34,8 +35,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SugarCaneBlock;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -50,7 +51,7 @@ public class YellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 	@ObjectHolder("enhancedvanilla:yellow_amaranth")
 	public static final Block block = null;
 	public YellowAmaranthBlock(EnhancedvanillaModElements instance) {
-		super(instance, 67);
+		super(instance, 73);
 	}
 
 	@Override
@@ -67,7 +68,12 @@ public class YellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		Feature<BlockClusterFeatureConfig> feature = new Feature<BlockClusterFeatureConfig>(BlockClusterFeatureConfig::deserialize) {
+		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig::deserialize) {
+			@Override
+			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
+				return block.getDefaultState();
+			}
+
 			@Override
 			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 				DimensionType dimensionType = world.getDimension().getType();
@@ -76,22 +82,7 @@ public class YellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				int generated = 0;
-				for (int j = 0; j < 1; ++j) {
-					BlockPos blockpos = pos.add(random.nextInt(4) - random.nextInt(4), 0, random.nextInt(4) - random.nextInt(4));
-					if (world.isAirBlock(blockpos)) {
-						BlockPos blockpos1 = blockpos.down();
-						int k = 1 + random.nextInt(random.nextInt(3) + 1);
-						k = Math.min(3, k);
-						for (int l = 0; l < k; ++l) {
-							if (block.getDefaultState().isValidPosition(world, blockpos)) {
-								world.setBlockState(blockpos.up(l), block.getDefaultState(), 2);
-								generated++;
-							}
-						}
-					}
-				}
-				return generated > 0;
+				return super.place(world, generator, random, pos, config);
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
@@ -112,13 +103,13 @@ public class YellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(1))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(1))));
 		}
 	}
-	public static class BlockCustomFlower extends SugarCaneBlock {
+	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
-			super(Block.Properties.create(Material.PLANTS).tickRandomly().doesNotBlockMovement().sound(SoundType.PLANT).hardnessAndResistance(0f, 0f)
-					.lightValue(0));
+			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT)
+					.hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("yellow_amaranth");
 		}
 
@@ -138,25 +129,6 @@ public class YellowAmaranthBlock extends EnhancedvanillaModElements.ModElement {
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
 			return PlantType.Plains;
-		}
-
-		@Override
-		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-			if (!state.isValidPosition(world, pos)) {
-				world.destroyBlock(pos, true);
-			} else if (world.isAirBlock(pos.up())) {
-				int i = 1;
-				for (; world.getBlockState(pos.down(i)).getBlock() == this; ++i);
-				if (i < 3) {
-					int j = state.get(AGE);
-					if (j == 15) {
-						world.setBlockState(pos.up(), getDefaultState());
-						world.setBlockState(pos, state.with(AGE, 0), 4);
-					} else {
-						world.setBlockState(pos, state.with(AGE, j + 1), 4);
-					}
-				}
-			}
 		}
 	}
 }

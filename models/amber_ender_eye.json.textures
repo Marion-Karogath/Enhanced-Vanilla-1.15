@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "amber_block",
+        "1": "ender_eye"
+      },
+      "name": "default"
+    }
+  }
+}
